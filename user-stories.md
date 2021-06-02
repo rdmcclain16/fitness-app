@@ -42,17 +42,17 @@ As a certified fitness trainer, I want to input my user data and be able to upda
 As a fitness trainer, I want potential clients to fill out a form so that I can be prepared for our first meeting
 
 # MVP
--
--
--
+- As a person with a health disorder, I want to find ways to help me get healthier so I can live longer for my kids.
+- As someone who struggles with weight gain/loss, I want to learn how to gain/lose weight in a healthy way so that I can lead a healthier lifestyle.
+- As a bodybuilder/weight trainer, I want to view a map that displays trainers so that I can connect with them/book an appt with them
 
 
 # Stretch Goals
--
--
--
--
--
+- As a person with an advanced fitness level, I want to learn use the app to track my calories burned on average.
+- As a fitness trainer, I want potential clients to fill out a form so that I can be prepared for our first meeting
+- As a user, I want to learn about healthy eating specific to me so I can be more knowledgeable about my body.
+- As a health physician , I want to provide my patient’s with an app, so they can live healthier lives.
+- As a nutritionist I want to offer dietary input so that there’s less confusion as to what eating habits are helpful or not.
 
 
 
