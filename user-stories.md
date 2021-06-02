@@ -41,7 +41,7 @@ As a certified fitness trainer, I want to input my user data and be able to upda
 
 As a fitness trainer, I want potential clients to fill out a form so that I can be prepared for our first meeting
 
-#MVP
+# MVP
 -
 -
 
