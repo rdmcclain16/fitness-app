@@ -44,10 +44,13 @@ As a fitness trainer, I want potential clients to fill out a form so that I can 
 # MVP
 -
 -
-
+-
 
 
 # Stretch Goals
+-
+-
+-
 -
 -
 
