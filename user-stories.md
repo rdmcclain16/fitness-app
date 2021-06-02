@@ -1,6 +1,7 @@
+# User Stories
+
 This app allow a user to visit the site and sign up for benefits that will cater to their needs. By submitting credientials and necessary data we can better serve the user in supporting their goals of weight gain or loss as well as healthy knowledge. We want it to be more about health than aesthetics. 
 
-MVP:
 
 As a user, I want to input user data (preferences, interests, goals, demographics) in a profile so that I can record milestones
 
@@ -39,6 +40,16 @@ As a bodybuilder/weight trainer, I want to view a map that displays trainers so 
 As a certified fitness trainer, I want to input my user data and be able to update when I am not available so that potential customers have correct info
 
 As a fitness trainer, I want potential clients to fill out a form so that I can be prepared for our first meeting
+
+#MVP
+-
+-
+
+
+
+# Stretch Goals
+-
+-
 
 
 
