@@ -41,8 +41,15 @@ As a certified fitness trainer, I want to input my user data and be able to upda
 
 As a fitness trainer, I want potential clients to fill out a form so that I can be prepared for our first meeting
 
+As a user, when I go to the health page, I will see a list of 10 things I can do to improve my health
+  Create an array that holds a 10 strings of different health recommendations
+  Create a function that will loop through the array and print out string
+  Add a li in my `health.html` that has an id `health.list`
+  Use `document.getElementById` to get the element from `health.html` and save it in a variable named `healthList`
+  Create a ul element dynamically and insert the li items (array of strings) 
+
 # MVP
-- As a person with a health disorder, I want to find ways to help me get healthier so I can live longer for my kids.
+- As a user, when I go to the health page, I w with a health disorder, I want to find ways to help me get healthier so I can live longer for my kids.
 - As someone who struggles with weight gain/loss, I want to learn how to gain/lose weight in a healthy way so that I can lead a healthier lifestyle.
 - As a bodybuilder/weight trainer, I want to view a map that displays trainers so that I can connect with them/book an appt with them
 
