@@ -7,8 +7,8 @@
 - adding a function to require input into username and password fields so that user cant bypass it
 
 # Profile
--CSS styling to include logo in top left corner, nav bar to the left of page with pages addes (not all will link to a new page)
--Form tags created with profile.html page with basic input boxes for data to be used on next pages
+- CSS styling to include logo in top left corner, nav bar to the left of page with pages addes (not all will link to a new page)
+- Form tags created with profile.html page with basic input boxes for data to be used on next pages
 
 
 # Caloric Intake Form
