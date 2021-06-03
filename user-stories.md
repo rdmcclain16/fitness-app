@@ -9,12 +9,12 @@ As a user, when I go to the health page, I will see a list of 10 things I can do
 
 # MVP
 - As a user, when I go to the health page, I want to find ways to help me get healthier so I can live longer for my kids.
-- As someone who struggles with weight loss, I want to be able to track calorie intake to meet my goals.
+ As someone who struggles with weight loss, I want to be able to track calorie intake to meet my goals.
   create an array of food items and their calorie values. 
   Create functions to add up the sum of their food/calories, including a constructor to call different food items.
   Form to input information for goals and food options
   Alert to let user know what their total caloric intake was for the day
-  Create chart to show weekly progress
+  Create chart to show monthly progress of caloric intake
   Create about me/contact page
 
 
