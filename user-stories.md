@@ -1,7 +1,7 @@
 # User Stories
 
 # Login Page
-- As a user, I want to have access to an app that allows me to track calorie intake to meet my goals.
+- As a user, I want to log in with a username and password to access my info on the fitness app
 - Create HTML page with javascript to include the following:
 - Adding Window with Username and Password boxes
 - Adding Button element that says "Login"
