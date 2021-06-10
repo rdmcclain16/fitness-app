@@ -64,16 +64,31 @@ let veggieCals = [
 
 let proteins = [
     {
-        'protein1': '',
-        'protein2': '',
-        'protein3': '',
-        'protein4': '',
-        'protein5': '',
-        'protein6': '',
-        'protein7': '',
-        'protein8': '',
-        'protein9': '',
-        'protein10': '',
+        'protein1': 'Eggs',
+        'protein2': 'Almonds',
+        'protein3': 'Chicken Breast',
+        'protein4': 'Oats',
+        'protein5': 'Cottage Cheese',
+        'protein6': 'Greek Yogurt',
+        'protein7': 'Lean Beef',
+        'protein8': 'Tuna',
+        'protein9': 'Quinoa',
+        'protein10': 'salmon',
 
+    }
+]
+
+let proteinCals = [
+    {
+        'eggs': '78 calories',
+        'almonds': '164 calories per ounce',
+        'chicken breast': '284 calories',
+        'oats': '307 calories',
+        'cottage cheese': '163 calories',
+        'greek yogurt': '100 calories',
+        'lean beef': '186 calories',
+        'tuna': '128 calories',
+        'quinoa': '222 calories',
+        'salmon': '175 calories',
     }
 ]
