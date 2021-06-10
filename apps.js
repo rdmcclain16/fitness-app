@@ -47,16 +47,16 @@ let veggies = [
 
 let veggieCals = [
     {
-        'broccoli': '80 calories',
-        'cabbage': '21 calories',
-        'carrots': '52 calories',
-        'celery': '6 calories',
-        'Brussels Sprouts': '38 calories',
-        'Asparagus': '27 calories',
-        'Collard Greens': '11 calories',
-        'Green Beans': '34 calories',
-        'String Beans': '34 calories',
-        'Bell Peppers': '30 calories',
+        'broccoli': '80',
+        'cabbage': '21',
+        'carrots': '52',
+        'celery': '6',
+        'brusselsSprouts': '38',
+        'asparagus': '27',
+        'collardGreens': '11',
+        'greenBeans': '34',
+        'stringBeans': '34',
+        'bellPeppers': '30',
 
 
     }
@@ -80,15 +80,17 @@ let proteins = [
 
 let proteinCals = [
     {
-        'eggs': '78 calories',
-        'almonds': '164 calories per ounce',
-        'chicken breast': '284 calories',
-        'oats': '307 calories',
-        'cottage cheese': '163 calories',
-        'greek yogurt': '100 calories',
-        'lean beef': '186 calories',
-        'tuna': '128 calories',
-        'quinoa': '222 calories',
-        'salmon': '175 calories',
+        'eggs': '78',
+        'almonds': '164',
+        'chickenBreast': '284',
+        'oats': '307',
+        'cottageCheese': '163',
+        'greekYogurt': '100',
+        'leanBeef': '186',
+        'tuna': '128',
+        'quinoa': '222',
+        'salmon': '175',
     }
 ]
+const sum = chickenBreast + asparagus
+console.log('The caloric sum of' + protein3 + ' and' + veggie6 + ' is:' + sum)
