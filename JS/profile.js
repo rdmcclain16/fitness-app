@@ -1,39 +1,19 @@
-'use strict';
+// 'use strict'
+// //asking user if they want to play
 
-//dynamic table
-let form = document.getElementById('form');
-
-// can we use the user name window prompt as a place holder for a login page?
-let welcome = window.prompt('Thanks for choosing us!');
-
-let user = window.prompt('can we get your first name?')
-    if(username === '') {
-        alert('Please enter your name');
-    } else {
-        alert(`Thank you ${username}`);
-    };
-
-function userFirstName() {
-    let firstName = prompt('Enter your first name');
-    if ()
+let answer1 = confirm('Would you like to sign up?')
+if (!answer1) {
+  alert('Sorry to see you go');
+} else {
+  alert('Great, let\'s get started!');
 }
 
-function userLastName() {
-    let lastName = prompt('Enter your last name')
-}
-
-function userAge() {
-    let age = prompt('Enter your age')
-}
-
-function userHeight() {
-    let height = prompt('Please enter your height in inches')
-}
-
-function userWeight() {
-    let weight = prompt('Please enter your weight in pounds')
-}
-
-function userGoalWeight() {
-    let goalWeight = prompt('Enter your goal weight in pounds')
+//once user says ok, ask for name then enter the page
+let user = prompt('what is your name?');
+while (!user) {
+  alert ('Seriously, I need your name.');
+  user = prompt('What is your name?');
+} 
+if (user.length > 0) {
+confirm('Hi ' + user + ' let\'s play!');
 }
