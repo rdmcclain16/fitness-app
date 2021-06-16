@@ -1,6 +1,16 @@
 'use strict';
 
-// can we use the user name window prompt as a place holder for a login page?
+
+function newUser (firstName, lastName, age, height, weight, goalWeight) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.height = height;
+    this.weight = weight;
+    this.goalWeight = goalWeight;
+
+}
+
 let username = window.prompt('What is your name?');
     if(username === '') {
         alert('Please enter your name');
