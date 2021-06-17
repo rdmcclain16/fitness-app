@@ -86,7 +86,12 @@
             <br>
 
             <label for="userObjective">What are you trying to accomplish? </label>
-            <input name="userObjective" type="text" size="15" required />
+            <select id="userObjective" name="userObjective" size="4" multiple>
+                <option value="loseWeight">Lose Weight</option>
+                <option value="gainWeight">Gain Weight</option>
+                <option value="recipes">Recipes</option>
+                <option value="workout">Workout Tips</option>
+            </select>
 
             <label for="userReferral">How did you hear about us? </label>
             <select id="userReferral" name="userReferral">
