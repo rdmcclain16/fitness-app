@@ -4,13 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Profile</title>
 </head>
 <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="#" class="navbar-brand">Fitness App</a>
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>  
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a  class="nav-link" href="/profile.html">Profile</a>
+                    </li>
+                    <li>
+                     <a  class="nav-link" href="/form.html">Caloric Intake</a>
+                 </li>
+                 <li>
+                     <a  class="nav-link" href="/chart.html">Progress Chart</a>
+                 </li>
+                 <li>
+                     <a class="nav-link" href="/login.html">Logout</a>
+                 </li>
+                </ul>
+            </div>
+ 
+        </nav>
+ 
+    </div>
+
     <form id="newUser">
         <fieldset>
-            <legend>New User</legend>
-
+            <legend>Add New User</legend>
+            <label for="demographics">Demographics</label>
+            <br>
+        
             <label for="firstName">First Name </label>
             <input name="firstName" type="text" size="15" required />
 
@@ -28,6 +67,10 @@
 
             <label for="userGoalWeight">Goal Weight </label>
             <input name="userGoalWeight" type="text" size="15" required />
+            <br>
+
+            <label for="contactInfo">Contact Information</label>
+            <br>
 
             <label for="userEmail">Email </label>
             <input name="userEmail" type="text" size="15" required />
@@ -37,12 +80,25 @@
 
             <label for="userAddress">Address </label>
             <input name="userAddress" type="text" size="15" required />
+            <br>
+
+            <label for="addQuestions">Additional Questions</label>
+            <br>
 
             <label for="userObjective">What are you trying to accomplish? </label>
             <input name="userObjective" type="text" size="15" required />
 
             <label for="userReferral">How did you hear about us? </label>
-            <input name="userReferral" type="text" size="15" required />
+            <select id="userReferral" name="userReferral">
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="twitter">Twitter</option>
+                <option value="tiktok">TikTok</option>
+                <option value="news">News</option>
+                <option value="friend">Friend</option>
+                <option value="gym">Gym</option>
+                <option value="healthcare">Healthcare Professional</option>
+            </select>
 
             <button type="submit">Create New User</button>
         </fieldset>
