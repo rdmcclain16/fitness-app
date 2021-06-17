@@ -121,7 +121,7 @@ let foods = [
         calories: 233
     },
     {
-        name: 'cottage cheee',
+        name: 'cottage cheese',
         foodType: 'protein',
         calories: 163
     },
