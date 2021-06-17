@@ -1,96 +1,185 @@
-let fruit = [
+// ARRAY OF OBJECTS
+let foods = [
     {
-        'fruit1': 'Apples',
-        'fruit2': 'Mango',
-        'fruit3': 'Pineapple',
-        'fruit4': 'Tomatoes',
-        'fruit5': 'Nectarines',
-        'fruit6': 'Cherries',
-        'fruit7': 'Strawberries',
-        'fruit8': 'Bananas',
-        'fruit9': 'Grapes',
-        'fruit10': 'Kiwi',
-
-    }
-]
-
-let fruitCals = [
+        name: 'broccoli',
+        foodType: 'veggies',
+        calories: 80
+    },
     {
-        'apples': '96 calories',
-        'mango': '107 calories',
-        'pineapples': '74 calories',
-        'tomatoes': '22 calories',
-        'nectarines': '60 calories',
-        'cherries': '74 calories',
-        'strawberries': '49 calories',
-        'banana': '105 calories',
-        'grapes': '104 calories',
-        'kiwi': '84 calories',
-    }
-]
-
-let veggies = [
+        name: 'cabbage',
+        foodType: 'veggies',
+        calories: 21
+    },
     {
-        'veggie1': 'Broccoli',
-        'veggie2': 'Cabbage',
-        'veggie3': 'Carrots',
-        'veggie4': 'Celery',
-        'veggie5': 'Brussels Sprouts',
-        'veggie6': 'Asparagus',
-        'veggie7': 'Collard Greens',
-        'veggie8': 'Green Beans',
-        'veggie9': 'String Beans',
-        'veggie10': 'Bell Peppers',
-
-    }
-]
-
-let veggieCals = [
+        name: 'carrots',
+        foodType: 'veggies',
+        calories: 52
+    },
     {
-        'broccoli': '80',
-        'cabbage': '21',
-        'carrots': '52',
-        'celery': '6',
-        'brusselsSprouts': '38',
-        'asparagus': '27',
-        'collardGreens': '11',
-        'greenBeans': '34',
-        'stringBeans': '34',
-        'bellPeppers': '30',
-
-
-    }
-]
-
-let proteins = [
+        name: 'celery',
+        foodType: 'vegetable',
+        calories: 6
+    },
     {
-        'protein1': 'Eggs',
-        'protein2': 'Almonds',
-        'protein3': 'Chicken Breast',
-        'protein4': 'Oats',
-        'protein5': 'Cottage Cheese',
-        'protein6': 'Greek Yogurt',
-        'protein7': 'Lean Beef',
-        'protein8': 'Tuna',
-        'protein9': 'Quinoa',
-        'protein10': 'salmon',
-
-    }
-]
-
-let proteinCals = [
+        name: 'brussels sprouts',
+        foodType: 'vegetable',
+        calories: 38
+    },
     {
-        'eggs': '78',
-        'almonds': '164',
-        'chickenBreast': '284',
-        'oats': '307',
-        'cottageCheese': '163',
-        'greekYogurt': '100',
-        'leanBeef': '186',
-        'tuna': '128',
-        'quinoa': '222',
-        'salmon': '175',
-    }
-]
-const sum = chickenBreast + asparagus
-console.log('The caloric sum of' + protein3 + ' and' + veggie6 + ' is:' + sum)
+        name: 'asparagus',
+        foodType: 'vegetable',
+        calories: 27
+    },
+    {
+        name: 'collard greens',
+        foodType: 'vegetable',
+        calories: 11
+    },
+    {
+        name: 'green beans',
+        foodType: 'vegetable',
+        calories: 34
+    },
+    {
+        name: 'string beans',
+        foodType: 'vegetable',
+        calories: 34
+    },
+    {
+        name: 'bell peppers',
+        foodType: 'vegetable',
+        calories: 30
+    },
+    {
+        name: 'spinach',
+        foodType: 'vegetable',
+        calories: 7
+    },
+    {
+        name: 'corn',
+        foodType: 'vegetable',
+        calories: 132
+    },
+    {
+        name: 'sweet potato',
+        foodType: 'vegetable',
+        calories: 112
+    },
+    {
+        name: 'potato',
+        foodType: 'vegetable',
+        calories: 168
+    },
+    {
+        name: 'cauliflower',
+        foodType: 'vegetable',
+        calories: 25
+    },
+    {
+        name: 'kale',
+        foodType: 'vegetable',
+        calories: 34
+    },
+    {
+        name: 'cucumber',
+        foodType: 'vegetable',
+        calories: 34
+    },
+    {
+        name: 'onion',
+        foodType: 'vegetable',
+        calories: 67
+    },
+    {
+        name: 'zuccini',
+        foodType: 'vegetable',
+        calories: 20
+    },
+    {
+        name: 'eggs',
+        foodType: 'protein',
+        calories: 78
+    },
+    {
+        name: 'almonds',
+        foodType: 'protein',
+        calories: 164
+    },
+    {
+        name: 'chicken breast',
+        foodType: 'protein',
+        calories: 284
+    },
+    {
+        name: 'chicken thigh',
+        foodType: 'protein',
+        calories: 226
+    },
+    {
+        name: 'chicken leg',
+        foodType: 'protein',
+        calories: 233
+    },
+    {
+        name: 'cottage cheee',
+        foodType: 'protein',
+        calories: 163
+    },
+    {
+        name: 'greek yogurt',
+        foodType: 'protein',
+        calories: 100
+    },
+    {
+        name: 'lean beef',
+        foodType: 'protein',
+        calories: 186
+    },
+    {
+        name: 'tuna',
+        foodType: 'protein',
+        calories: 128
+    },
+    {
+        name: 'quinoa',
+        foodType: 'protein',
+        calories: 222
+    },
+    {
+        name: 'salmon',
+        foodType: 'protein',
+        calories: 175
+    },
+    {
+        name: 'shrimp',
+        foodType: 'protein',
+        calories: 6
+    },
+    {
+        name: 'turkey breast',
+        foodType: 'protein',
+        calories: 146
+    },
+    {
+        name: 'turkey bacon',
+        foodType: 'protein',
+        calories: 31
+    },
+    {
+        name: 'turkey sausage',
+        foodType: 'protein',
+        calories: 56
+    },
+    {
+        name: 'chicken sausage',
+        foodType: 'protein',
+        calories: 49
+    },
+
+
+
+
+
+
+
+
