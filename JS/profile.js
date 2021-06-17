@@ -3,9 +3,12 @@
 function results(){
    let firstName = document.getElementById("firstName").value;
 
-   let result ='First Name: ' + firstName 
+   let result ='First Name: ' + firstName;
    document.getElementById("display").textContent = result;
-// let firstName = document.getElementById('firstName').value;
+
+
+
+
 // let age = document.getElementById('age').value;
 // let height = document.getElementById('height').value;
 // let weight = document.getElementById('weight').value;
