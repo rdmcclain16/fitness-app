@@ -1,35 +1,25 @@
-// 'use strict'
-// //asking user if they want to play
+'use strict'
 
-let answer1 = confirm('Would you like to sign up?')
-if (!answer1) {
-  alert('Sorry to see you go');
-} else {
-  alert('Great, let\'s get started!');
-}
+function results(){
+   let firstName = document.getElementById("firstName").value;
 
-//once user says ok, ask for name then enter the page
-let user = prompt('what is your name?');
-while (!user) {
-  alert ('Seriously, I need your name.');
-  user = prompt('What is your name?');
-} 
-if (user.length > 0) {
-confirm('Hi ' + user + ' let\'s play!');
-}
+   let result ='First Name: ' + firstName 
+   document.getElementById("display").textContent = result;
+// let firstName = document.getElementById('firstName').value;
+// let age = document.getElementById('age').value;
+// let height = document.getElementById('height').value;
+// let weight = document.getElementById('weight').value;
+// let goal = document.getElementById('goal').value;
+// let lastName = document.getElementById('lastName').value;
+// let result = 'Last name: ' + lastName + "<br/>";
+// document.write("<h1> Thank you!</h1>");
+// document.write("<h3> Here is your data:</h3>");
+// //getelement by id to put data for output 
+// document.getElementById('results').textContent = result;
 
-function showInput() 
-{   
-    let form = document.forms[0].elements;
-    let message_entered = "";
-
-    for(let i = 0, j = form.length;i < j;i++) 
-    {
-
-        if(form[i].type == "text") {message_entered += (form[i].value + " - ");}
-
-    }
-
-    document.getElementById('display').innerHTML = message_entered;
-
+// document.write('Last name: ' + lastName + "<br/>");
+// document.write('Age: ' + age + "<br/>");
+// document.write('Height: ' + height + "<br/>");
+// document.write('Weight: ' + weight + "<br/>");
+// document.write('Goal: ' + goal + "<br/>");
 }
