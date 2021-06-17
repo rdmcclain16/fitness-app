@@ -28,10 +28,9 @@
           <option value="blueberries">Blueberries</option>
           <option value="peach">Peach</option>
           <option value="raspberries">Raspberries</option>
-          <option value="canteloupe">Canteloupe</option>
+          <option value="cantaloupe">Cantaloupe</option>
           <option value="watermelon">Watermelon</option>
           <option value="pear">Pear</option>
-          <option value="mango">Mango</option>
         </select>
 
         <br><br>
@@ -53,7 +52,7 @@
           <option value="bell pepper">Bell Pepper</option>
           <option value="collard greens">Collard Greens</option>
           <option value="spinach">Spinach</option>
-          <option value="Corn">Corn on the Cob</option>
+          <option value="corn">Corn on the Cob</option>
           <option value="sweet potato">Sweet Potato</option>
           <option value="potato">Potato</option>
           <option value="cauliflower">Cauliflower</option>
@@ -75,12 +74,11 @@
           <option value="almonds">Almonds</option>
           <option value="chicken breast">Chicken Breast</option>
           <option value="chicken thigh">Chicken Thigh</option>
-          <option value="brussel leg">Chicken Leg</option>
+          <option value="chicken leg">Chicken Leg</option>
           <option value="cottage cheese">Cottage Cheese</option>
           <option value="greek yogurt">Greek Yogurt</option>
           <option value="lean beef">Lean Beef</option>
           <option value="tuna">Tuna</option>
-          <option value="spinach">Spinach</option>
           <option value="quinoa">Quinoa</option>
           <option value="salmon">Salmon</option>
           <option value="shrimp">Shrimp</option>
@@ -145,16 +143,24 @@
       <br>
       <!-- total calories box -->
       <label for="total">Total Calories Consumed</label>
-      <input type="text" name="Total Calories:" id="total">
+      <input type="number" name="Total Calories:" id="total">
+      <input type="button" onclick="alert('Total Calories are now Reset')" value="Reset">
+      <br><br>
    
+ <!-- here's the quantity boxes -->
+<label for="quantity">QTY(per cup): </label>
+<input type="number">
+<label for="quantity">QTY(per cup): </label>
+<input type="number">
+<label for="quantity">QTY(per cup): </label>
+<input type="number">
+<label for="quantity">QTY(per cup): </label>
+<input type="number">
+<br><br>
+<!-- here are the calorie input boxes -->
+<input type='number' id="fruitcal">
+<input type='number' id="veggiecal">
+<input type='number' id="carbcal">
+<input type='number' id="dairycal">     
 </body>
-<!-- here's the quantity boxes -->
-<label for="quantity">QTY: </label>
-<input type="text">
-<label for="quantity">QTY: </label>
-<input type="text">
-<label for="quantity">QTY: </label>
-<input type="text">
-<label for="quantity">QTY: </label>
-<input type="text">
 </html>
