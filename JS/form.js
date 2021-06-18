@@ -91,7 +91,7 @@ let foods = [
         calories: 67
     },
     {
-        name: 'zuccini',
+        name: 'zucchini',
         foodType: 'vegetable',
         calories: 20
     },
