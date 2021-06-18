@@ -6,6 +6,7 @@ function results(){
  
     let result ='First Name: ' + firstName;
     document.getElementById("display").textContent = result;
+}
 // function showInput() 
 // {   
 //     let form = document.forms[0].elements;
