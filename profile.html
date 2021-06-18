@@ -43,13 +43,11 @@
                  </li>
                 </ul>
             </div>
- 
         </nav>
- 
     </div>
  
     
-    <<form id="newUser">
+    <form id="newUser">
         <fieldset>
             <legend>Add New User</legend>
             <label for="demographics">Demographics</label>
@@ -61,7 +59,7 @@
             <label for="lastName">Last Name </label>
             <input name="lastName" type="text" size="15" required />
 
-            <label for="userAge">Age </label>
+            <!-- <label for="userAge">Age </label>
             <input name="userAge" type="text" size="15" required />
 
             <label for="userHeight">Height </label>
@@ -108,31 +106,16 @@
                 <option value="friend">Friend</option>
                 <option value="gym">Gym</option>
                 <option value="healthcare">Healthcare Professional</option>
-            </select>
+            </select> -->
 
             <button type="submit">Create New User</button>
         </fieldset>
     </form>
-    <div class = "content">
-        <form id="input" method="get" action="submitData">
-            <table>
-                <tr>
-                    <td> First Name: </td>
-                    <td><input type="text" id="firstName" name="name"/></td>
-                </tr>
-                <tr>
-                    <td> Last Name: </td>
-                    <td><input type="text" id="lastName" name="name"/></td>
-                </tr>
-                <tr>
-                    <td> unknown data: </td>
-                    <td><input type="text" id="data" name="name"/></td>
-                </tr>
-            </table>
+    
     
             <div class="contentInput">
                 <tr>
-                    <td><input type = "submit" onclick="showInput()";></td>
+                    <td><input type = "submit" onclick="result()";></td>
                     <td><label>Your input: </label><br /></td>
                     <td><p><span id='display'></span> </p></td>
                 </tr>
