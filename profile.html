@@ -54,10 +54,10 @@
             <br>
         
             <label for="firstName">First Name </label>
-            <input name="firstName" type="text" size="15" required />
+            <input name="firstName" id="firstName" type="text" size="15" required />
 
             <label for="lastName">Last Name </label>
-            <input name="lastName" type="text" size="15" required />
+            <input name="lastName" id="lastName" type="text" size="15" required />
 
             <!-- <label for="userAge">Age </label>
             <input name="userAge" type="text" size="15" required />
@@ -108,18 +108,14 @@
                 <option value="healthcare">Healthcare Professional</option>
             </select> -->
 
-            <button type="submit">Create New User</button>
+            <input type="button" onclick="results()" id="submit" value="submit" ></input>
         </fieldset>
     </form>
     
     
-            <div class="contentInput">
-                <tr>
-                    <td><input type = "submit" onclick="result()";></td>
-                    <td><label>Your input: </label><br /></td>
-                    <td><p><span id='display'></span> </p></td>
-                </tr>
-            </div>
+       <label>First Name: 
+           <p id="display"></p>
+       </label>
 
 
 
