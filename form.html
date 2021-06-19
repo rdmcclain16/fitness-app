@@ -76,9 +76,11 @@
           <option value="watermelon">Watermelon</option>
           <option value="pear">Pear</option>
         </select>
-
+        <label for="quantity">QTY(per cup): </label>
+        <input type="number" id="qty">
         <br><br>
         <input type="submit" value="Submit">
+        <input type='number' id="fruitcal">
       </form>
       <br>
       <!-- here is the dropdown of veggies -->
@@ -105,8 +107,11 @@
           <option value="onion">Onion</option>
           <option value="zucchini">Zucchini</option>
         </select>
+        <label for="quantity">QTY(per cup): </label>
+        <input type="number" id="qty">
         <br><br>
         <input type="submit" value="Submit">
+        <input type='number' id="veggiecal">
       </form>
       <br>
       <!--  here is the dropdown of protein -->
@@ -131,8 +136,11 @@
           <option value="turkey sausage">Turkey Sausage</option>
           <option value="chicken sausage">Chicken Sausage</option>
         </select>
+        <label for="quantity">QTY(per cup): </label>
+        <input type="number" id="qty">
         <br><br>
         <input type="submit" value="Submit">
+        <input type='number' id="proteincal">
       </form>
       <br>
       <!-- here is the dropdown of carbs/breads -->
@@ -156,8 +164,11 @@
           <option value="crouton">Crouton</option>
           <option value="rye">Sliced Rye</option>
         </select>
+        <label for="quantity">QTY(per cup): </label>
+        <input type="number" id="qty">
         <br><br>
         <input type="submit" value="Submit">
+        <input type='number' id="carbcal">
       </form>
       <br>
       <!-- here is the dropdown of dairy items -->
@@ -181,8 +192,11 @@
           <option value="sour cream">Sour Cream</option>
           <option value="creamer">Creamer</option>
         </select>
+        <label for="quantity">QTY(per cup): </label>
+        <input type="number" id="qty">
         <br><br>
         <input type="submit" value="Submit">
+        <input type='number' id="dairycal">  
       </form>
       <br>
       <!-- total calories box -->
@@ -190,26 +204,9 @@
       <input type="number" name="Total Calories:" id="total">
       <input type="button" onclick="alert('Total Calories are now Reset')" value="Reset">
       <br><br>
-   
- <!-- here's the quantity boxes -->
-<label for="quantity">QTY(per cup): </label>
-<input type="number" id="qty">
-<label for="quantity">QTY(per cup): </label>
-<input type="number">
-<label for="quantity">QTY(per cup): </label>
-<input type="number">
-<label for="quantity">QTY(per cup): </label>
-<input type="number">
-<br><br>
-<!-- here are the calorie input boxes -->
-<input type='number' id="fruitcal">
-<input type='number' id="veggiecal">
-<input type='number' id="carbcal">
-<input type='number' id="dairycal">     
-
-<footer>
+  <footer>
     Copyright, 2021. &copy;
-</footer>
+  </footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
