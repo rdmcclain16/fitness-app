@@ -47,7 +47,7 @@
     </div>
  
     
-    <form id="newUser">
+    <form name="newUser" >
         <fieldset>
             <legend>Add New User</legend>
             <label for="demographics">Demographics</label>
@@ -107,17 +107,13 @@
                 <option value="gym">Gym</option>
                 <option value="healthcare">Healthcare Professional</option>
             </select> -->
+            <input type="button" onclick="results()" id="submit" value="submit" ><br/>
 
-            <input type="button" onclick="results()" id="submit" value="submit" ></input>
+        
         </fieldset>
     </form>
-    
-    
-       <label>
-           <p id="display"></p>
-       </label>
 
-
+<label id="display"></label>
 
     <script src="JS/profile.js"></script>
 </body>
