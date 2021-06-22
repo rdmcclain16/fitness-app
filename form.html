@@ -56,7 +56,7 @@
 <body>
 <br><br>
     <!--  here is the dropdown of fruits -->
-    <form action="">
+    <form id = "form" action="">
         <label for="fruits">Choose a Fruit: </label>
         <select name="fruits" id="fruits">
           <option value="choose">Please Select an Option</option>
@@ -79,12 +79,12 @@
         <label for="quantity">QTY(per cup): </label>
         <input type="number" id="qtyFruit">
         <br><br>
-        <input type="button" value ="Add" onclick="getFruitValue()" >
-        <input id="fruitcal">
-      </form>
+        <input type="button" value ="Add" onclick="getFruitValue()">
+        <display id="fruitcal"></display>
+              <!-- </form> -->
       <br>
       <!-- here is the dropdown of veggies -->
-      <form action="">
+      <!-- <form action=""> -->
         <label for="veggies">Choose a Vegetable: </label>
         <select name="veggies" id="veggies">
           <option value="choose">Please Select an Option</option>
@@ -112,10 +112,10 @@
         <br><br>
         <input type="button" value ="Add" onclick="getVegValue()" >
         <input type='number' id="veggiecal">
-      </form>
+      <!-- </form> -->
       <br>
       <!--  here is the dropdown of protein -->
-      <form action="">
+      <!-- <form action=""> -->
         <label for="protein">Choose a Protein: </label>
         <select name="protein" id="protein">
           <option value="choose">Please Select an Option</option>
@@ -141,10 +141,10 @@
         <br><br>
         <input type="button" value ="Add" onclick="getProteinValue()" >
         <input type='number' id="proteincal">
-      </form>
+      <!-- </form> -->
       <br>
       <!-- here is the dropdown of carbs/breads -->
-      <form action="">
+      <!-- <form action=""> -->
         <label for="">Choose a Carb: </label>
         <select name="carb" id="carb">
           <option value="choose">Please Select an Option</option>
@@ -169,10 +169,10 @@
         <br><br>
         <input type="button" value ="Add" onclick="getCarbValue()" >
         <input type='number' id="carbcal">
-      </form>
+      <!-- </form> -->
       <br>
       <!-- here is the dropdown of dairy items -->
-      <form action="">
+      <!-- <form action=""> -->
         <label for="">Choose a Dairy/Non-Dairy Item: </label>
         <select name="dairy" id="dairy">
           <option value="choose">Please Select an Option</option>
@@ -202,7 +202,7 @@
       <!-- total calories box -->
       <label for="total">Total Calories Consumed</label>
       <input type="number" name="Total Calories:" id="total">
-      <input type="button" onclick="alert('Total Calories are now Reset')" value="Reset">
+      <input type="button" onclick="reset()" value="Reset Form">
       <br><br>
   <footer>
     Copyright, 2021. &copy;

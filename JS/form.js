@@ -13,6 +13,13 @@ function getFruitValue(){
     console.log(product);
 }
 
+function reset(){
+    alert('Total Calories are now Reset');
+    document.getElementById("form").reset();
+    document.getElementById("display").reset();
+}
+
+
 function getVegValue(){
     let getVeg = document.getElementById("qtyVeg").value;
     let vegSlct = document.getElementById("veggies");
