@@ -60,26 +60,27 @@
         <label for="fruits">Choose a Fruit: </label>
         <select name="fruits" id="fruits">
           <option value="choose">Please Select an Option</option>
-          <option value="100">Apple</option>
-          <option value="mango">Mango</option>
-          <option value="pineapple">Pineapple</option>
-          <option value="kiwi">Kiwi</option>
-          <option value="cherries">Cherries</option>
-          <option value="strawberries">Strawberries</option>
-          <option value="banana">Banana</option>
-          <option value="grapes">Grapes</option>
-          <option value="tomato">Tomato</option>
-          <option value="blueberries">Blueberries</option>
-          <option value="peach">Peach</option>
-          <option value="raspberries">Raspberries</option>
-          <option value="cantaloupe">Cantaloupe</option>
-          <option value="watermelon">Watermelon</option>
-          <option value="pear">Pear</option>
+          <option value="96">Apple</option>
+          <option value="107">Mango</option>
+          <option value="74">Pineapple</option>
+          <option value="84">Kiwi</option>
+          <option value="74">Cherries</option>
+          <option value="49">Strawberries</option>
+          <option value="105">Banana</option>
+          <option value="104">Grapes</option>
+          <option value="22">Tomato</option>
+          <option value="85">Blueberries</option>
+          <option value="50">Peach</option>
+          <option value="52">Raspberries</option>
+          <option value="186">Cantaloupe</option>
+          <option value="85">Watermelon</option>
+          <option value="102">Pear</option>
         </select>
         <label for="quantity">QTY(per cup): </label>
         <input type="number" id="qtyFruit">
         <br><br>
-        <input type="button" value ="Add" onclick="getFruitValue()" >
+        <input type="button" value ="Add" onclick="getFruitValue()">
+        <input type="reset" value="Reset" onclick="getFruitValue()">
       
       </form>
       <br>
@@ -88,29 +89,30 @@
         <label for="veggies">Choose a Vegetable: </label>
         <select name="veggies" id="veggies">
           <option value="choose">Please Select an Option</option>
-          <option value="broccoli">Broccoli</option>
-          <option value="50">Cabbage</option>
-          <option value="carrots">Carrots</option>
-          <option value="celery">Celery</option>
-          <option value="brussel sprouts">Brussel Sprouts</option>
-          <option value="asparagus">Asparagus</option>
-          <option value="green beans">Green Beans</option>
-          <option value="bell pepper">Bell Pepper</option>
-          <option value="collard greens">Collard Greens</option>
-          <option value="spinach">Spinach</option>
-          <option value="corn">Corn on the Cob</option>
-          <option value="sweet potato">Sweet Potato</option>
-          <option value="potato">Potato</option>
-          <option value="cauliflower">Cauliflower</option>
-          <option value="kale">Kale</option>
-          <option value="cucumber">Cucumber</option>
-          <option value="onion">Onion</option>
-          <option value="zucchini">Zucchini</option>
+          <option value="80">Broccoli</option>
+          <option value="21">Cabbage</option>
+          <option value="52">Carrots</option>
+          <option value="6">Celery</option>
+          <option value="38">Brussel Sprouts</option>
+          <option value="27">Asparagus</option>
+          <option value="34">Green Beans</option>
+          <option value="30">Bell Pepper</option>
+          <option value="11">Collard Greens</option>
+          <option value="7">Spinach</option>
+          <option value="132">Corn on the Cob</option>
+          <option value="112">Sweet Potato</option>
+          <option value="168">Potato</option>
+          <option value="25">Cauliflower</option>
+          <option value="34">Kale</option>
+          <option value="34">Cucumber</option>
+          <option value="67">Onion</option>
+          <option value="20">Zucchini</option>
         </select>
         <label for="quantity">QTY(per cup): </label>
         <input type="number" id="qtyVeggies">
         <br><br>
-        <input type="button" value ="Add" onclick="getVeggiesValue()" >
+        <input type="button" id="addBtn" value ="Add" onclick="getVeggiesValue()" >
+        <input type="reset" value="Reset" onclick="getVeggiesValue()">
       </form>
       <br>
       <!--  here is the dropdown of protein -->
@@ -118,27 +120,28 @@
         <label for="protein">Choose a Protein: </label>
         <select name="protein" id="protein">
           <option value="choose">Please Select an Option</option>
-          <option value="eggs">Eggs</option>
-          <option value="almonds">Almonds</option>
-          <option value="chicken breast">Chicken Breast</option>
-          <option value="chicken thigh">Chicken Thigh</option>
-          <option value="chicken leg">Chicken Leg</option>
-          <option value="cottage cheese">Cottage Cheese</option>
-          <option value="greek yogurt">Greek Yogurt</option>
-          <option value="lean beef">Lean Beef</option>
-          <option value="tuna">Tuna</option>
-          <option value="quinoa">Quinoa</option>
-          <option value="salmon">Salmon</option>
-          <option value="shrimp">Shrimp</option>
-          <option value="turkey breast">Turkey Breast</option>
-          <option value="turkey bacon">Turkey Bacon</option>
-          <option value="turkey sausage">Turkey Sausage</option>
-          <option value="chicken sausage">Chicken Sausage</option>
+          <option value="78">Eggs</option>
+          <option value="164">Almonds</option>
+          <option value="284">Chicken Breast</option>
+          <option value="226">Chicken Thigh</option>
+          <option value="233">Chicken Leg</option>
+          <option value="163">Cottage Cheese</option>
+          <option value="100">Greek Yogurt</option>
+          <option value="186">Lean Beef</option>
+          <option value="128">Tuna</option>
+          <option value="222">Quinoa</option>
+          <option value="175">Salmon</option>
+          <option value="99">Shrimp</option>
+          <option value="146">Turkey Breast</option>
+          <option value="31">Turkey Bacon</option>
+          <option value="56">Turkey Sausage</option>
+          <option value="49">Chicken Sausage</option>
         </select>
         <label for="quantity">QTY(per cup): </label>
         <input type="number" id="qtyProtein">
         <br><br>
-        <input type="button" value ="Add" onclick="getProteinValue()" >
+        <input type="button" value ="Add" onclick="getProteinValue()">
+        <input type="reset" value="Reset" onclick="getProteinValue()">
       </form>
       <br>
       <!-- here is the dropdown of carbs/breads -->
@@ -146,65 +149,66 @@
         <label for="">Choose a Carb: </label>
         <select name="carb" id="carb">
           <option value="choose">Please Select an Option</option>
-          <option value="bagel">Bagel</option>
-          <option value="sliced white bread">Sliced White Bread</option>
-          <option value="sliced wheat bread">Sliced Wheat Bread</option>
-          <option value="dinner roll">Dinner Roll</option>
-          <option value="white rice">White Rice</option>
-          <option value="brown rice">Brown Rice</option>
-          <option value="jasmine rice">Jasmine Rice</option>
-          <option value="basmati rice">Basmati Rice</option>
-          <option value="biscuit">Biscuit</option>
-          <option value="flour tortilla">Tortilla</option>
-          <option value="cornbread">Cornbread</option>
-          <option value="pretzel">Baked Pretzel</option>
-          <option value="english muffin">English Muffin</option>
-          <option value="crouton">Crouton</option>
-          <option value="rye">Sliced Rye</option>
+          <option value="245">Bagel</option>
+          <option value="79">Sliced White Bread</option>
+          <option value="69">Sliced Wheat Bread</option>
+          <option value="84">Dinner Roll</option>
+          <option value="204">White Rice</option>
+          <option value="214">Brown Rice</option>
+          <option value="238">Jasmine Rice</option>
+          <option value="177">Basmati Rice</option>
+          <option value="212">Biscuit</option>
+          <option value="95">Tortilla</option>
+          <option value="88">Cornbread</option>
+          <option value="483">Soft Pretzel</option>
+          <option value="132">English Muffin</option>
+          <option value="122">Crouton</option>
+          <option value="83">Sliced Rye</option>
         </select>
         <label for="quantity">QTY(per cup): </label>
         <input type="number" id="qtyCarb">
         <br><br>
-        <input type="button" value ="Add" onclick="getCarbValue()" >
+        <input type="button" value ="Add" onclick="getCarbValue()">
+        <input type="reset" value="Reset" onclick="getCarbValue()">
       <br>
      <!-- here is the dropdown of dairy itemm -->
        <form action="">
         <label for="">Choose a Dairy/Non-Dairy Item: </label>
         <select name="dairy" id="dairy"> 
           <option value="choose">Please Select an Option</option>
-          <option value="one percent">1% Milk</option>
-          <option value="two percent">2% Milk</option>
-          <option value="almond milk">Almond Milk</option>
-          <option value="coconut milk">Coconut Milk</option>
-          <option value="mozzarella">Mozzarella</option>
-          <option value="cheddar">Cheddar Cheese</option>
-          <option value="parmesan">Parmesan Cheese</option>
-          <option value="butter">Butter</option>
-          <option value="greek yogurt">Plain Greek Yogurt</option>
-          <option value="low fat yogurt">Low Fat Yogurt</option>
-          <option value="frozen yogurt">Frozen Yogurt</option>
-          <option value="vanilla ice cream">Vanilla Ice Cream</option>
-          <option value="chocolate ice cream">Chocolate Ice Cream</option>
-          <option value="sour cream">Sour Cream</option>
-          <option value="creamer">Creamer</option>
+          <option value="103">1% Milk</option>
+          <option value="103">2% Milk</option>
+          <option value="63">Almond Milk</option>
+          <option value="34">Coconut Milk</option>
+          <option value="78">Mozzarella</option>
+          <option value="113">Cheddar Cheese</option>
+          <option value="22">Parmesan Cheese</option>
+          <option value="102">Butter</option>
+          <option value="100">Plain Greek Yogurt</option>
+          <option value="100">Low Fat Yogurt</option>
+          <option value="137">Vanilla Ice Cream</option>
+          <option value="143">Chocolate Ice Cream</option>
+          <option value="23">Sour Cream</option>
+          <option value="20">Creamer</option>
         </select> 
         <label for="quantity">QTY(per cup): </label>
         <input type="number" id="qtyDairy">
         <br><br>
-        <input type="button" value ="Add" onclick="getDairyValue()" >
+        <input type="button" value ="Add" onclick="getDairyValue()">
+        <input type="reset" value="Reset" onclick="getDairyValue()">
       </form>
 
       <br>
       <!-- total calories box -->
       <label for="total">Total Calories Consumed</label>
-      <input type="number" name="Total Calories:" id="total">
-      <input type="button" onclick="alert('Total Calories are now Reset')" value="Reset">
+      <input type="text" id="total" onemptied="getTotal()">
+      <input type="reset" value="Reset" onclick="">
       <br><br>
   <footer>
     Copyright, 2021. &copy;
   </footer>
 
-<script type="text/javascript" src="JS\apps.js"></script>
+<script type="text/javascript" src="JS/form.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </body>
