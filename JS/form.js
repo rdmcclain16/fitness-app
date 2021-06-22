@@ -4,7 +4,10 @@ function getFruitValue(){
     let getFruit = document.getElementById("qtyFruit").value;
     let fruitSlct = document.getElementById("fruits");
     let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
-    let product = getFruit*userFruitSlct;
+    let product = parseInt(getFruit) * parseInt(userFruitSlct);
+    let display = document.getElementById("fruitcal");
+    display.innerHTML += product;
+    
     console.log(userFruitSlct);
     console.log(getFruit);
     console.log(product);
