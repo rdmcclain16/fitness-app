@@ -414,3 +414,44 @@ let food = [
         },
     ]
 
+    function getFruitValue(){
+        let getFruit = document.getElementById("qtyFruit").value;
+        let fruitSlct = document.getElementById("fruits");
+        let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
+        let product = userFruitSlct * getFruit
+        console.log(userFruitSlct);
+        console.log(getFruit);
+        console.log(product);
+    }
+    function getVeggiesValue(){
+        let getVeggies = document.getElementById("qtyVeggies").value;
+        let veggiesSlct = document.getElementById("veggies");
+        let userVeggiesSlct = veggiesSlct.options[veggiesSlct.selectedIndex].value;
+       
+        console.log(userVeggiesSlct);
+        console.log(getVeggies);
+        console.log(product);
+    }
+    function getProteinValue(){
+        let getProtein = document.getElementById("qtyProtein").value;
+        let proteinSlct = document.getElementById("protein");
+        let userProteinSlct = proteinSlct.options[proteinSlct.selectedIndex].value;
+        console.log(userProteinSlct);
+        console.log(getProtein);
+    }
+    function getCarbValue(){
+        let getCarb = document.getElementById("qtyCarb").value;
+        let carbSlct = document.getElementById("carb");
+        let userCarbSlct = carbSlct.options[carbSlct.selectedIndex].value;
+        console.log(userCarbSlct);
+        console.log(getCarb);
+    }
+    function getDairyValue(){
+        let getDairy = document.getElementById("qtyDairy").value;
+        let dairySlct = document.getElementById("dairy");
+        let userDairySlct = dairySlct.options[dairySlct.selectedIndex].value;
+        console.log(userDairySlct);
+        console.log(getDairy);
+    }
+    
+
