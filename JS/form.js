@@ -414,47 +414,70 @@ let foods =[
         let getFruit = document.getElementById("qtyFruit").value;
         let fruitSlct = document.getElementById("fruits");
         let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
-        let product = userFruitSlct * getFruit
-        console.log(userFruitSlct);
-        console.log(getFruit);
-        console.log(product);
+        let TotalFruitCal = parseInt(userFruitSlct) * parseInt(getFruit);
+        let display = document.getElementById("fruitcal");
+        display.innerHTML += TotalFruitCal;
+
+        console.log('Each cup is ' + userFruitSlct + ' calories');
+        console.log('The quantity is ' + getFruit);
+        console.log('The total calories is ' + TotalFruitCal);
     }
     function getVeggiesValue(){
         let getVeggies = document.getElementById("qtyVeggies").value;
         let veggiesSlct = document.getElementById("veggies");
         let userVeggiesSlct = veggiesSlct.options[veggiesSlct.selectedIndex].value;
-        let product = userVeggiesSlct * getVeggies
-        console.log(userVeggiesSlct);
-        console.log(getVeggies);
-        console.log(product);
+        let TotalVegCal = parseInt(userVeggiesSlct) * parseInt(getVeggies);
+        let display = document.getElementById('veggiescal');
+        display.innerHTML += TotalVegCal;
+
+        console.log('Each cup is ' + userVeggiesSlct + ' calories');
+        console.log('The quantity is ' + getVeggies);
+        console.log('The total calories is ' + TotalVegCal);
     }
     function getProteinValue(){
         let getProtein = document.getElementById("qtyProtein").value;
         let proteinSlct = document.getElementById("protein");
         let userProteinSlct = proteinSlct.options[proteinSlct.selectedIndex].value;
-        let product = userProteinSlct * getProtein
-        console.log(userProteinSlct);
-        console.log(getProtein);
-        console.log(product);
+        let TotalProteinCal = parseInt(userProteinSlct) * parseInt(getProtein);
+        let display = document.getElementById('proteincal');
+        display.innerHTML += TotalProteinCal;
+
+        console.log('Each cup is ' + userProteinSlct + ' calories');
+        console.log('The quantity is ' + getProtein);
+        console.log('The total calories is ' + TotalProteinCal);
     }
     function getCarbValue(){
         let getCarb = document.getElementById("qtyCarb").value;
         let carbSlct = document.getElementById("carb");
         let userCarbSlct = carbSlct.options[carbSlct.selectedIndex].value;
-        let product = userCarbSlct * getCarb
-        console.log(userCarbSlct);
-        console.log(getCarb);
-        console.log(product);
+        let TotalCarbCal = parseInt(userCarbSlct) * parseInt(getCarb);
+        let display = document.getElementById("carbcal");
+        display.innerHTML += TotalCarbCal;
+
+        console.log('Each cup is ' + userCarbSlct + ' calories');
+        console.log('The quantity is ' + getCarb);
+        console.log('The total calories is ' + TotalCarbCal);
     }
     function getDairyValue(){
         let getDairy = document.getElementById("qtyDairy").value;
         let dairySlct = document.getElementById("dairy");
         let userDairySlct = dairySlct.options[dairySlct.selectedIndex].value;
-        let product = userDairySlct * getDairy
-        console.log(userDairySlct);
-        console.log(getDairy);
-        console.log(product);
+        let TotalDairyCal = parseInt(userDairySlct) * parseInt(getDairy);
+        let display = document.getElementById("dairycal");
+        display.innerHTML += TotalDairyCal;
+
+        console.log('Each cup is ' + userDairySlct + ' calories');
+        console.log('The quantity is ' + getDairy);
+        console.log('The total calories is ' + TotalDairyCal);
     }
     
     
-    
+    function reset() {
+        alert("Total Calories are now Reset!");
+        document.getElementById("form").reset();
+        document.getElementById("fruitcal").innerHTML = "";
+        document.getElementById("veggiescal").innerHTML = "";
+        document.getElementById("proteincal").innerHTML = "";
+        document.getElementById("carbcal").innerHTML = "";
+        document.getElementById("dairycal").innerHTML = "";
+    }
