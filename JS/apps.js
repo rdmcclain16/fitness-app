@@ -176,7 +176,7 @@ let foods = [
         calories: 49
     }]
 
-    function calculate() {
-        let quantity = document.getElementById('qty').value;
-        let 
-    }
+function itemsCalories() {
+    let selectedValue = document.getElementById('qty').value;
+    let
+}

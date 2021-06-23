@@ -1,7 +1,7 @@
 'use strict'
 
 
-let foods =[
+let foods = [
     {
         name: 'apple',
         foodType: 'fruit',
@@ -14,44 +14,44 @@ let foods =[
         calories: 105
     },
     {
-        name:'mango',
+        name: 'mango',
         foodType: 'fruit',
         calories: 107
 
     },
-     {
-    name:'pineapple',
-    foodType: 'fruit',
-    calories: 74
-
-    },
     {
-        name:'kiwi',
-        foodType:'fruit',
-        calories: 84
-
-    },
-    {
-        name:'cherries',
-        foodType:'fruit',
+        name: 'pineapple',
+        foodType: 'fruit',
         calories: 74
 
     },
     {
-        name:'strawberries',
-        foodType:'fruit',
+        name: 'kiwi',
+        foodType: 'fruit',
+        calories: 84
+
+    },
+    {
+        name: 'cherries',
+        foodType: 'fruit',
+        calories: 74
+
+    },
+    {
+        name: 'strawberries',
+        foodType: 'fruit',
         calories: 49
 
     },
     {
         name: 'grapes',
         foodType: 'fruit',
-        calories: 104 
+        calories: 104
     },
     {
         name: 'tomato',
         foodType: 'fruit',
-        calories: 22 
+        calories: 22
     },
     {
         name: 'blueberries',
@@ -61,7 +61,7 @@ let foods =[
     {
         name: 'peach',
         foodType: 'fruit',
-        calories: 50 
+        calories: 50
     },
     {
         name: 'raspberries',
@@ -71,17 +71,17 @@ let foods =[
     {
         name: 'cantaloupe',
         foodType: 'fruit',
-        calories: 186 
+        calories: 186
     },
     {
         name: 'watermelon',
         foodType: 'fruit',
-        calories: 85 
+        calories: 85
     },
     {
         name: 'pear',
         foodType: 'fruit',
-        calories: 102 
+        calories: 102
     },
 ]
 
@@ -158,259 +158,285 @@ let foods = [
     },
 ]
 let foods = [
-        {
-            name: 'broccoli',
-            foodType: 'veggies',
-            calories: 80
-        },
-        {
-            name: 'cabbage',
-            foodType: 'veggies',
-            calories: 21
-        },
-        {
-            name: 'carrots',
-            foodType: 'veggies',
-            calories: 52
-        },
-        {
-            name: 'celery',
-            foodType: 'veggies',
-            calories: 6
-        },
-        {
-            name: 'brussels sprouts',
-            foodType: 'veggies',
-            calories: 38
-        },
-        {
-            name: 'asparagus',
-            foodType: 'veggies',
-            calories: 27
-        },
-        {
-            name: 'collard greens',
-            foodType: 'veggies',
-            calories: 11
-        },
-        {
-            name: 'green beans',
-            foodType: 'veggies',
-            calories: 34
-        },
-        {
-            name: 'string beans',
-            foodType: 'veggies',
-            calories: 34
-        },
-        {
-            name: 'bell peppers',
-            foodType: 'veggies',
-            calories: 30
-        },
-        {
-            name: 'spinach',
-            foodType: 'veggies',
-            calories: 7
-        },
-        {
-            name: 'corn',
-            foodType: 'veggies',
-            calories: 132
-        },
-        {
-            name: 'sweet potato',
-            foodType: 'veggies',
-            calories: 112
-        },
-        {
-            name: 'potato',
-            foodType: 'veggies',
-            calories: 168
-        },
-        {
-            name: 'cauliflower',
-            foodType: 'veggies',
-            calories: 25
-        },
-        {
-            name: 'kale',
-            foodType: 'veggies',
-            calories: 34
-        },
-        {
-            name: 'cucumber',
-            foodType: 'veggies',
-            calories: 34
-        },
-        {
-            name: 'onion',
-            foodType: 'veggies',
-            calories: 67
-        },
-        {
-            name: 'zucchini',
-            foodType: 'veggies',
-            calories: 20
-        },
-    ]    
+    {
+        name: 'broccoli',
+        foodType: 'veggies',
+        calories: 80
+    },
+    {
+        name: 'cabbage',
+        foodType: 'veggies',
+        calories: 21
+    },
+    {
+        name: 'carrots',
+        foodType: 'veggies',
+        calories: 52
+    },
+    {
+        name: 'celery',
+        foodType: 'veggies',
+        calories: 6
+    },
+    {
+        name: 'brussels sprouts',
+        foodType: 'veggies',
+        calories: 38
+    },
+    {
+        name: 'asparagus',
+        foodType: 'veggies',
+        calories: 27
+    },
+    {
+        name: 'collard greens',
+        foodType: 'veggies',
+        calories: 11
+    },
+    {
+        name: 'green beans',
+        foodType: 'veggies',
+        calories: 34
+    },
+    {
+        name: 'string beans',
+        foodType: 'veggies',
+        calories: 34
+    },
+    {
+        name: 'bell peppers',
+        foodType: 'veggies',
+        calories: 30
+    },
+    {
+        name: 'spinach',
+        foodType: 'veggies',
+        calories: 7
+    },
+    {
+        name: 'corn',
+        foodType: 'veggies',
+        calories: 132
+    },
+    {
+        name: 'sweet potato',
+        foodType: 'veggies',
+        calories: 112
+    },
+    {
+        name: 'potato',
+        foodType: 'veggies',
+        calories: 168
+    },
+    {
+        name: 'cauliflower',
+        foodType: 'veggies',
+        calories: 25
+    },
+    {
+        name: 'kale',
+        foodType: 'veggies',
+        calories: 34
+    },
+    {
+        name: 'cucumber',
+        foodType: 'veggies',
+        calories: 34
+    },
+    {
+        name: 'onion',
+        foodType: 'veggies',
+        calories: 67
+    },
+    {
+        name: 'zucchini',
+        foodType: 'veggies',
+        calories: 20
+    },
+]
 let food = [
-        {
-            name: 'eggs',
-            foodType: 'protein',
-            calories: 78
-        },
-        {
-            name: 'almonds',
-            foodType: 'protein',
-            calories: 164
-        },
-        {
-            name: 'chicken breast',
-            foodType: 'protein',
-            calories: 284,
-        },
-        {
-            name: 'chicken thigh',
-            foodType: 'protein',
-            calories: 226
-        },
-        {
-            name: 'chicken leg',
-            foodType: 'protein',
-            calories: 233
-        },
-        {
-            name: 'cottage cheese',
-            foodType: 'protein',
-            calories: 163
-        },
-        {
-            name: 'greek yogurt',
-            foodType: 'protein',
-            calories: 100
-        },
-        {
-            name: 'lean beef',
-            foodType: 'protein',
-            calories: 186
-        },
-        {
-            name: 'tuna',
-            foodType: 'protein',
-            calories: 128
-        },
-        {
-            name: 'quinoa',
-            foodType: 'protein',
-            calories: 222
-        },
-        {
-            name: 'salmon',
-            foodType: 'protein',
-            calories: 175
-        },
-        {
-            name: 'shrimp',
-            foodType: 'protein',
-            calories: 6
-        },
-        {
-            name: 'turkey breast',
-            foodType: 'protein',
-            calories: 146
-        },
-        {
-            name: 'turkey bacon',
-            foodType: 'protein',
-            calories: 31
-        },
-        {
-            name: 'turkey sausage',
-            foodType: 'protein',
-            calories: 56
-        },
-        {
-            name: 'chicken sausage',
-            foodType: 'protein',
-            calories: 49
-        },
-    ]
-    let foods = [
-        {
-            name: 'bagel',
-            foodType: 'carb',
-            calories: 245
-        },
-        {
-            name: 'sliced white bread',
-            foodType: 'carb',
-            calories: 79
-        },
-        {
-            name: 'sliced wheat bread',
-            foodType: 'carb',
-            calories: 69
-        },
-        {
-            name: 'dinner roll',
-            foodType: 'carb',
-            calories: 84
-        },
-        {
-            name: 'white rice',
-            foodType: 'carb',
-            calories: 204
-        },
-        {
-            name: 'brown rice',
-            foodType: 'carb',
-            calories: 214
-        },
-        {
-            name: 'jasmine rice',
-            foodType: 'carb',
-            calories: 238
-        },
-        {
-            name: 'basmati rice',
-            foodType: 'carb',
-            calories: 177
-        },
-        {
-            name: 'biscuit',
-            foodType: 'carb',
-            calories: 212
-        },
-        {
-            name: 'flour tortilla',
-            foodType: 'carb',
-            calories: 95
-        },
-        {
-            name: 'cornbread',
-            foodType: 'carb',
-            calories: 80
-        },
-        {
-            name: 'soft pretzel',
-            foodType: 'carb',
-            calories: 483
-        },
-        {
-            name: 'english muffin',
-            foodType: 'carb',
-            calories: 132
-        },
-        {
-            name: 'crouton',
-            foodType: 'carb',
-            calories: 122
-        },
-        {
-            name: 'rye',
-            foodType: 'carb',
-            calories: 83
-        },
-    ]
+    {
+        name: 'eggs',
+        foodType: 'protein',
+        calories: 78
+    },
+    {
+        name: 'almonds',
+        foodType: 'protein',
+        calories: 164
+    },
+    {
+        name: 'chicken breast',
+        foodType: 'protein',
+        calories: 284,
+    },
+    {
+        name: 'chicken thigh',
+        foodType: 'protein',
+        calories: 226
+    },
+    {
+        name: 'chicken leg',
+        foodType: 'protein',
+        calories: 233
+    },
+    {
+        name: 'cottage cheese',
+        foodType: 'protein',
+        calories: 163
+    },
+    {
+        name: 'greek yogurt',
+        foodType: 'protein',
+        calories: 100
+    },
+    {
+        name: 'lean beef',
+        foodType: 'protein',
+        calories: 186
+    },
+    {
+        name: 'tuna',
+        foodType: 'protein',
+        calories: 128
+    },
+    {
+        name: 'quinoa',
+        foodType: 'protein',
+        calories: 222
+    },
+    {
+        name: 'salmon',
+        foodType: 'protein',
+        calories: 175
+    },
+    {
+        name: 'shrimp',
+        foodType: 'protein',
+        calories: 6
+    },
+    {
+        name: 'turkey breast',
+        foodType: 'protein',
+        calories: 146
+    },
+    {
+        name: 'turkey bacon',
+        foodType: 'protein',
+        calories: 31
+    },
+    {
+        name: 'turkey sausage',
+        foodType: 'protein',
+        calories: 56
+    },
+    {
+        name: 'chicken sausage',
+        foodType: 'protein',
+        calories: 49
+    },
+]
+let foods = [
+    {
+        name: 'bagel',
+        foodType: 'carb',
+        calories: 245
+    },
+    {
+        name: 'sliced white bread',
+        foodType: 'carb',
+        calories: 79
+    },
+    {
+        name: 'sliced wheat bread',
+        foodType: 'carb',
+        calories: 69
+    },
+    {
+        name: 'dinner roll',
+        foodType: 'carb',
+        calories: 84
+    },
+    {
+        name: 'white rice',
+        foodType: 'carb',
+        calories: 204
+    },
+    {
+        name: 'brown rice',
+        foodType: 'carb',
+        calories: 214
+    },
+    {
+        name: 'jasmine rice',
+        foodType: 'carb',
+        calories: 238
+    },
+    {
+        name: 'basmati rice',
+        foodType: 'carb',
+        calories: 177
+    },
+    {
+        name: 'biscuit',
+        foodType: 'carb',
+        calories: 212
+    },
+    {
+        name: 'flour tortilla',
+        foodType: 'carb',
+        calories: 95
+    },
+    {
+        name: 'cornbread',
+        foodType: 'carb',
+        calories: 80
+    },
+    {
+        name: 'soft pretzel',
+        foodType: 'carb',
+        calories: 483
+    },
+    {
+        name: 'english muffin',
+        foodType: 'carb',
+        calories: 132
+    },
+    {
+        name: 'crouton',
+        foodType: 'carb',
+        calories: 122
+    },
+    {
+        name: 'rye',
+        foodType: 'carb',
+        calories: 83
+    },
+]
+
+// declare a variable storing updated totals
+// let variable = what's storing the calories
+// **let x = 2
+// **let total = 0
+
+function add() {
+    let calories1 = parseInt(document.getElementById('calories');
+    let calories2 = parseInt(document.getElementById('calories');
+
+    console.log(calories1);
+    console.log(calories2);
+    let result = calories1 + calories2;
+
+    document.getElementById('calories').value = result;
+}
+
+
+
+// function getFruitValue() {
+//     let getFruit = document.getElementById("qtyFruit").value;
+//     let fruitSlct = document.getElementById("fruits");
+//     let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
+//     console.log(userFruitSlct);
+//     console.log(getFruit);
+// }
 

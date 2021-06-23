@@ -1,215 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/styles.css">
-    <title>Calorie Intake Form</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Calorie Intake Form</title>
 </head>
+
 <body>
-   <div class="container">
-       <nav class="navbar navbar-expand-md navbar-light">
-           <a href="#" class="navbar-brand">Fitness App</a>
-           <button class="navbar-toggler"
-           type="button"
-           data-bs-toggle="collapse"
-           data-bs-target="#toggleMobileMenu"
-           aria-controls="toggleMobileMenu"
-           aria-expanded="false"
-           aria-label="Toggle navigation"
-           >
-             <span class="navbar-toggler-icon"></span>  
-           </button>
-           <div class="collapse navbar-collapse" id="toggleMobileMenu">
-               <ul class="navbar-nav ms-auto text-center">
-                <li>
-                    <a  class="nav-link" href="profile.html">Profile</a>
-                   </li>
-                <li>
-                    <a  class="nav-link" href="form.html">Caloric Intake</a>
-                </li>
-                <li>
-                    <a  class="nav-link" href="chart.html">Progress Chart</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="index.html">Logout</a>
-                </li>
-               </ul>
-           </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a href="#" class="navbar-brand">Fitness App</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+        aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav ms-auto text-center">
+          <li>
+            <a class="nav-link" href="profile.html">Profile</a>
+          </li>
+          <li>
+            <a class="nav-link" href="form.html">Caloric Intake</a>
+          </li>
+          <li>
+            <a class="nav-link" href="chart.html">Progress Chart</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html">Logout</a>
+          </li>
+        </ul>
+      </div>
 
-       </nav>
+    </nav>
 
-   </div>
+  </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
 <!-- Calorie Intake Form Starts Below Here -->
-    <header>
-        <h1> Calorie Intake Form </h1>
-    </header>
+<header>
+  <h1> Calorie Intake Form </h1>
+</header>
+
 <body>
-<br><br>
-    <!--  here is the dropdown of fruits -->
-    <form action="">
-        <label for="fruits">Choose a Fruit: </label>
-        <select name="fruits" id="fruits">
-          <option value="choose">Please Select an Option</option>
-          <option value="apple">Apple</option>
-          <option value="mango">Mango</option>
-          <option value="pineapple">Pineapple</option>
-          <option value="kiwi">Kiwi</option>
-          <option value="cherries">Cherries</option>
-          <option value="strawberries">Strawberries</option>
-          <option value="banana">Banana</option>
-          <option value="grapes">Grapes</option>
-          <option value="tomato">Tomato</option>
-          <option value="blueberries">Blueberries</option>
-          <option value="peach">Peach</option>
-          <option value="raspberries">Raspberries</option>
-          <option value="cantaloupe">Cantaloupe</option>
-          <option value="watermelon">Watermelon</option>
-          <option value="pear">Pear</option>
-        </select>
-        <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qty">
-        <br><br>
-        <input type="submit" value="Submit">
-        <input type='number' id="fruitcal">
-      </form>
-      <br>
-      <!-- here is the dropdown of veggies -->
-      <form action="">
-        <label for="veggies">Choose a Vegetable: </label>
-        <select name="veggies" id="veggies">
-          <option value="choose">Please Select an Option</option>
-          <option value="broccoli">Broccoli</option>
-          <option value="cabbage">Cabbage</option>
-          <option value="carrots">Carrots</option>
-          <option value="celery">Celery</option>
-          <option value="brussel sprouts">Brussel Sprouts</option>
-          <option value="asparagus">Asparagus</option>
-          <option value="green beans">Green Beans</option>
-          <option value="bell pepper">Bell Pepper</option>
-          <option value="collard greens">Collard Greens</option>
-          <option value="spinach">Spinach</option>
-          <option value="corn">Corn on the Cob</option>
-          <option value="sweet potato">Sweet Potato</option>
-          <option value="potato">Potato</option>
-          <option value="cauliflower">Cauliflower</option>
-          <option value="kale">Kale</option>
-          <option value="cucumber">Cucumber</option>
-          <option value="onion">Onion</option>
-          <option value="zucchini">Zucchini</option>
-        </select>
-        <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qty">
-        <br><br>
-        <input type="submit" value="Submit">
-        <input type='number' id="veggiecal">
-      </form>
-      <br>
-      <!--  here is the dropdown of protein -->
-      <form action="">
-        <label for="protein">Choose a Protein: </label>
-        <select name="protein" id="protein">
-          <option value="choose">Please Select an Option</option>
-          <option value="eggs">Eggs</option>
-          <option value="almonds">Almonds</option>
-          <option value="chicken breast">Chicken Breast</option>
-          <option value="chicken thigh">Chicken Thigh</option>
-          <option value="chicken leg">Chicken Leg</option>
-          <option value="cottage cheese">Cottage Cheese</option>
-          <option value="greek yogurt">Greek Yogurt</option>
-          <option value="lean beef">Lean Beef</option>
-          <option value="tuna">Tuna</option>
-          <option value="quinoa">Quinoa</option>
-          <option value="salmon">Salmon</option>
-          <option value="shrimp">Shrimp</option>
-          <option value="turkey breast">Turkey Breast</option>
-          <option value="turkey bacon">Turkey Bacon</option>
-          <option value="turkey sausage">Turkey Sausage</option>
-          <option value="chicken sausage">Chicken Sausage</option>
-        </select>
-        <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qty">
-        <br><br>
-        <input type="submit" value="Submit">
-        <input type='number' id="proteincal">
-      </form>
-      <br>
-      <!-- here is the dropdown of carbs/breads -->
-      <form action="">
-        <label for="">Choose a Carb: </label>
-        <select name="carb" id="carb">
-          <option value="choose">Please Select an Option</option>
-          <option value="bagel">Bagel</option>
-          <option value="sliced white bread">Sliced White Bread</option>
-          <option value="sliced wheat bread">Sliced Wheat Bread</option>
-          <option value="dinner roll">Dinner Roll</option>
-          <option value="white rice">White Rice</option>
-          <option value="brown rice">Brown Rice</option>
-          <option value="jasmine rice">Jasmine Rice</option>
-          <option value="basmati rice">Basmati Rice</option>
-          <option value="biscuit">Biscuit</option>
-          <option value="flour tortilla">Tortilla</option>
-          <option value="cornbread">Cornbread</option>
-          <option value="pretzel">Baked Pretzel</option>
-          <option value="english muffin">English Muffin</option>
-          <option value="crouton">Crouton</option>
-          <option value="rye">Sliced Rye</option>
-        </select>
-        <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qty">
-        <br><br>
-        <input type="submit" value="Submit">
-        <input type='number' id="carbcal">
-      </form>
-      <br>
-      <!-- here is the dropdown of dairy items -->
-      <form action="">
-        <label for="">Choose a Dairy/Non-Dairy Item: </label>
-        <select name="dairy" id="dairy">
-          <option value="choose">Please Select an Option</option>
-          <option value="one percent">1% Milk</option>
-          <option value="two percent">2% Milk</option>
-          <option value="almond milk">Almond Milk</option>
-          <option value="coconut milk">Coconut Milk</option>
-          <option value="mozzarella">Mozzarella</option>
-          <option value="cheddar">Cheddar Cheese</option>
-          <option value="parmesan">Parmesan Cheese</option>
-          <option value="butter">Butter</option>
-          <option value="greek yogurt">Plain Greek Yogurt</option>
-          <option value="low fat yogurt">Low Fat Yogurt</option>
-          <option value="frozen yogurt">Frozen Yogurt</option>
-          <option value="vanilla ice cream">Vanilla Ice Cream</option>
-          <option value="chocolate ice cream">Chocolate Ice Cream</option>
-          <option value="sour cream">Sour Cream</option>
-          <option value="creamer">Creamer</option>
-        </select>
-        <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qty">
-        <br><br>
-        <input type="submit" value="Submit">
-        <input type='number' id="dairycal">  
-      </form>
-      <br>
-      <!-- total calories box -->
-      <label for="total">Total Calories Consumed</label>
-      <input type="number" name="Total Calories:" id="total">
-      <input type="button" onclick="alert('Total Calories are now Reset')" value="Reset">
-      <br><br>
+  <br><br>
+  <!--  here is the dropdown of fruits -->
+  <form action="">
+    <label for="fruits">Choose a Fruit: </label>
+    <select name="fruits" id="fruits">
+      <option value="choose">Please Select an Option</option>
+      <option value="apple">Apple</option>
+      <option value="mango">Mango</option>
+      <option value="pineapple">Pineapple</option>
+      <option value="kiwi">Kiwi</option>
+      <option value="cherries">Cherries</option>
+      <option value="strawberries">Strawberries</option>
+      <option value="banana">Banana</option>
+      <option value="grapes">Grapes</option>
+      <option value="tomato">Tomato</option>
+      <option value="blueberries">Blueberries</option>
+      <option value="peach">Peach</option>
+      <option value="raspberries">Raspberries</option>
+      <option value="cantaloupe">Cantaloupe</option>
+      <option value="watermelon">Watermelon</option>
+      <option value="pear">Pear</option>
+    </select>
+    <label for="quantity">QTY(per cup): </label>
+    <input type="number" id="qty">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type='number' id="fruitcal">
+  </form>
+  <br>
+  <!-- here is the dropdown of veggies -->
+  <form action="">
+    <label for="veggies">Choose a Vegetable: </label>
+    <select name="veggies" id="veggies">
+      <option value="choose">Please Select an Option</option>
+      <option value="broccoli">Broccoli</option>
+      <option value="cabbage">Cabbage</option>
+      <option value="carrots">Carrots</option>
+      <option value="celery">Celery</option>
+      <option value="brussel sprouts">Brussel Sprouts</option>
+      <option value="asparagus">Asparagus</option>
+      <option value="green beans">Green Beans</option>
+      <option value="bell pepper">Bell Pepper</option>
+      <option value="collard greens">Collard Greens</option>
+      <option value="spinach">Spinach</option>
+      <option value="corn">Corn on the Cob</option>
+      <option value="sweet potato">Sweet Potato</option>
+      <option value="potato">Potato</option>
+      <option value="cauliflower">Cauliflower</option>
+      <option value="kale">Kale</option>
+      <option value="cucumber">Cucumber</option>
+      <option value="onion">Onion</option>
+      <option value="zucchini">Zucchini</option>
+    </select>
+    <label for="quantity">QTY(per cup): </label>
+    <input type="number" id="qty">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type='number' id="veggiecal">
+  </form>
+  <br>
+  <!--  here is the dropdown of protein -->
+  <form action="">
+    <label for="protein">Choose a Protein: </label>
+    <select name="protein" id="protein">
+      <option value="choose">Please Select an Option</option>
+      <option value="eggs">Eggs</option>
+      <option value="almonds">Almonds</option>
+      <option value="chicken breast">Chicken Breast</option>
+      <option value="chicken thigh">Chicken Thigh</option>
+      <option value="chicken leg">Chicken Leg</option>
+      <option value="cottage cheese">Cottage Cheese</option>
+      <option value="greek yogurt">Greek Yogurt</option>
+      <option value="lean beef">Lean Beef</option>
+      <option value="tuna">Tuna</option>
+      <option value="quinoa">Quinoa</option>
+      <option value="salmon">Salmon</option>
+      <option value="shrimp">Shrimp</option>
+      <option value="turkey breast">Turkey Breast</option>
+      <option value="turkey bacon">Turkey Bacon</option>
+      <option value="turkey sausage">Turkey Sausage</option>
+      <option value="chicken sausage">Chicken Sausage</option>
+    </select>
+    <label for="quantity">QTY(per cup): </label>
+    <input type="number" id="qty">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type='number' id="proteincal">
+  </form>
+  <br>
+  <!-- here is the dropdown of carbs/breads -->
+  <form action="">
+    <label for="">Choose a Carb: </label>
+    <select name="carb" id="carb">
+      <option value="choose">Please Select an Option</option>
+      <option value="bagel">Bagel</option>
+      <option value="sliced white bread">Sliced White Bread</option>
+      <option value="sliced wheat bread">Sliced Wheat Bread</option>
+      <option value="dinner roll">Dinner Roll</option>
+      <option value="white rice">White Rice</option>
+      <option value="brown rice">Brown Rice</option>
+      <option value="jasmine rice">Jasmine Rice</option>
+      <option value="basmati rice">Basmati Rice</option>
+      <option value="biscuit">Biscuit</option>
+      <option value="flour tortilla">Tortilla</option>
+      <option value="cornbread">Cornbread</option>
+      <option value="pretzel">Baked Pretzel</option>
+      <option value="english muffin">English Muffin</option>
+      <option value="crouton">Crouton</option>
+      <option value="rye">Sliced Rye</option>
+    </select>
+    <label for="quantity">QTY(per cup): </label>
+    <input type="number" id="qty">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type='number' id="carbcal">
+  </form>
+  <br>
+  <!-- here is the dropdown of dairy items -->
+  <form action="">
+    <label for="">Choose a Dairy/Non-Dairy Item: </label>
+    <select name="dairy" id="dairy">
+      <option value="choose">Please Select an Option</option>
+      <option value="one percent">1% Milk</option>
+      <option value="two percent">2% Milk</option>
+      <option value="almond milk">Almond Milk</option>
+      <option value="coconut milk">Coconut Milk</option>
+      <option value="mozzarella">Mozzarella</option>
+      <option value="cheddar">Cheddar Cheese</option>
+      <option value="parmesan">Parmesan Cheese</option>
+      <option value="butter">Butter</option>
+      <option value="greek yogurt">Plain Greek Yogurt</option>
+      <option value="low fat yogurt">Low Fat Yogurt</option>
+      <option value="frozen yogurt">Frozen Yogurt</option>
+      <option value="vanilla ice cream">Vanilla Ice Cream</option>
+      <option value="chocolate ice cream">Chocolate Ice Cream</option>
+      <option value="sour cream">Sour Cream</option>
+      <option value="creamer">Creamer</option>
+    </select>
+    <label for="quantity">QTY(per cup): </label>
+    <input type="number" id="qty">
+    <br><br>
+    <!-- <input type="submit" value="Submit"> -->
+    <input type="button" value="Add" onclick="getFruitValue()">
+    <input type='number' id="dairycal">
+  </form>
+  <br>
+  <!-- total calories box -->
+  <label for="total">Total Calories Consumed</label>
+  <input type="number" name="Total Calories:" id="total">
+  <input type="button" onclick="alert('Total Calories are now Reset')" value="Reset">
+  <br><br>
   <footer>
     Copyright, 2021. &copy;
   </footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
