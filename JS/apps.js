@@ -174,13 +174,4 @@ let foods = [
         name: 'chicken sausage',
         foodType: 'protein',
         calories: 49
-<<<<<<< HEAD
     }]
-=======
-    }]
-
-function itemsCalories() {
-    let selectedValue = document.getElementById('qty').value;
-    let
-}
->>>>>>> kns-calorie-input

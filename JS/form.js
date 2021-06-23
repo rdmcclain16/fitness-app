@@ -414,46 +414,68 @@ function getFruitValue() {
     let getFruit = document.getElementById("qtyFruit").value;
     let fruitSlct = document.getElementById("fruits");
     let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
-    let product = userFruitSlct * getFruit
+    let totalFruitCal = userFruitSlct * getFruit
     console.log(userFruitSlct);
     console.log(getFruit);
-    console.log(product);
+    console.log(totalFruitCal);
 }
 function getVeggiesValue() {
     let getVeggies = document.getElementById("qtyVeggies").value;
     let veggiesSlct = document.getElementById("veggies");
     let userVeggiesSlct = veggiesSlct.options[veggiesSlct.selectedIndex].value;
-    let product = userVeggiesSlct * getVeggies
+    let totalVegCal = userVeggiesSlct * getVeggies
     console.log(userVeggiesSlct);
     console.log(getVeggies);
-    console.log(product);
+    console.log(totalVegCal);
 }
 function getProteinValue() {
     let getProtein = document.getElementById("qtyProtein").value;
     let proteinSlct = document.getElementById("protein");
     let userProteinSlct = proteinSlct.options[proteinSlct.selectedIndex].value;
-    let product = userProteinSlct * getProtein
+    let totalProCal = userProteinSlct * getProtein
     console.log(userProteinSlct);
     console.log(getProtein);
-    console.log(product);
+    console.log(totalProCal);
 }
 function getCarbValue() {
     let getCarb = document.getElementById("qtyCarb").value;
     let carbSlct = document.getElementById("carb");
     let userCarbSlct = carbSlct.options[carbSlct.selectedIndex].value;
-    let product = userCarbSlct * getCarb
+    let totalCarbCal = userCarbSlct * getCarb
     console.log(userCarbSlct);
     console.log(getCarb);
-    console.log(product);
+    console.log(totalCarbCal);
 }
 function getDairyValue() {
     let getDairy = document.getElementById("qtyDairy").value;
     let dairySlct = document.getElementById("dairy");
     let userDairySlct = dairySlct.options[dairySlct.selectedIndex].value;
-    let product = userDairySlct * getDairy
+    let totalDairyCal = userDairySlct * getDairy
     console.log(userDairySlct);
     console.log(getDairy);
-    console.log(product);
+    console.log(totalDairyCal);
 }
 
 
+
+function add() {
+    var calcFruit = totalFruitCal;
+    var calcVeggies = totalVegCal;
+    var calcProteins = totalProCal;
+    var calcCarbs = totalCarbCal;
+    var calcDairy = totalDairyCal;
+
+    var result = calcFruit + calcVeggies;
+    console.log(document.getElementById("total")).value = result
+
+
+
+
+    // let x = totalFruitCal;
+    // let y = totalDairyCal;
+    // console.log(typeof x);
+    // console.log(typeof y);
+    // var result = x + y;
+
+
+}
