@@ -549,3 +549,4 @@ function add() {
         document.getElementById("carbcal").innerHTML = "";
         document.getElementById("dairycal").innerHTML = "";
     }
+}
