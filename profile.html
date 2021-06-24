@@ -53,6 +53,7 @@
     </div>
 
     
+<<<<<<< HEAD
 <<<<<<< .merge_file_gesInh
     <form >
         <fieldset>
@@ -87,6 +88,33 @@
             <input name="userGoalWeight" id="goal" type="text" size="15" required /> -->
 
 <!--             
+=======
+    <form id="newUser">
+        <fieldset>
+            <legend>Add New User</legend>
+            <label for="demographics">Demographics</label>
+            <br>
+        
+            <label for="firstName">First Name </label>
+            <input name="firstName" id="firstName" type="text" size="15" required />
+
+            <label for="lastName">Last Name </label>
+            <input name="lastName" id="lastName" type="text" size="15" required />
+
+            <!-- <label for="userAge">Age </label>
+            <input name="userAge" type="text" size="15" required />
+
+            <label for="userHeight">Height </label>
+            <input name="userHeight" type="text" size="15" required />
+
+            <label for="userWeight">Weight </label>
+            <input name="userWeight" type="text" size="15" required />
+
+            <label for="userGoalWeight">Goal Weight </label>
+            <input name="userGoalWeight" type="text" size="15" required />
+            <br>
+
+>>>>>>> development
             <label for="contactInfo">Contact Information</label>
             <br>
 
@@ -104,6 +132,7 @@
             <br>
 
             <label for="userObjective">What are you trying to accomplish? </label>
+<<<<<<< HEAD
             <input name="userObjective" type="text" size="15" required />
 
             <label for="userReferral">How did you hear about us? </label>
@@ -208,4 +237,38 @@
     <script src="JS/profile.js"></script>
 </body>
 >>>>>>> .merge_file_raJPXo
+=======
+            <select id="userObjective" name="userObjective" size="4" multiple>
+                <option value="loseWeight">Lose Weight</option>
+                <option value="gainWeight">Gain Weight</option>
+                <option value="recipes">Recipes</option>
+                <option value="workout">Workout Tips</option>
+            </select>
+
+            <label for="userReferral">How did you hear about us? </label>
+            <select id="userReferral" name="userReferral">
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="twitter">Twitter</option>
+                <option value="tiktok">TikTok</option>
+                <option value="news">News</option>
+                <option value="friend">Friend</option>
+                <option value="gym">Gym</option>
+                <option value="healthcare">Healthcare Professional</option>
+            </select> -->
+
+            <input type="button" onclick="results()" id="submit" value="submit" ></input>
+        </fieldset>
+    </form>
+    
+    
+       <label>
+           <p id="display"></p>
+       </label>
+
+
+
+    <script src="JS/profile.js"></script>
+</body>
+>>>>>>> development
 </html>

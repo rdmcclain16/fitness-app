@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict'
 
 function results(){
@@ -37,6 +38,22 @@ function results(){
 //     let form = document.forms[0].elements;
 //     let message_entered = "";
 
+=======
+// 'use strict'
+// //asking user if they want to play
+
+function results(){
+    let firstName = document.getElementById("firstName").value;
+ 
+    let result ='First Name: ' + firstName;
+    document.getElementById("display").textContent = result;
+}
+// function showInput() 
+// {   
+//     let form = document.forms[0].elements;
+//     let message_entered = "";
+
+>>>>>>> development
 //     for(let i = 0, j = form.length;i < j;i++) 
 //     {
 
@@ -49,4 +66,7 @@ function results(){
 // }
 
 
+<<<<<<< HEAD
 >>>>>>> .merge_file_J54zn5
+=======
+>>>>>>> development

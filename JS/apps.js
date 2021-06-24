@@ -17,82 +17,82 @@ let foods = [
     },
     {
         name: 'celery',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 6
     },
     {
         name: 'brussels sprouts',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 38
     },
     {
         name: 'asparagus',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 27
     },
     {
         name: 'collard greens',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 11
     },
     {
         name: 'green beans',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 34
     },
     {
         name: 'string beans',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 34
     },
     {
         name: 'bell peppers',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 30
     },
     {
         name: 'spinach',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 7
     },
     {
         name: 'corn',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 132
     },
     {
         name: 'sweet potato',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 112
     },
     {
         name: 'potato',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 168
     },
     {
         name: 'cauliflower',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 25
     },
     {
         name: 'kale',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 34
     },
     {
         name: 'cucumber',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 34
     },
     {
         name: 'onion',
-        foodType: 'vegetable',
+        foodType: 'veggies',
         calories: 67
     },
     {
-        name: 'zuccini',
-        foodType: 'vegetable',
+        name: 'zucchini',
+        foodType: 'veggies',
         calories: 20
     },
     {
@@ -174,12 +174,4 @@ let foods = [
         name: 'chicken sausage',
         foodType: 'protein',
         calories: 49
-    },
-
-
-
-
-
-
-
-
+    }]
