@@ -478,10 +478,7 @@ function add() {
     // var result = x + y;
 
 
-<<<<<<< HEAD
-}
-=======
-    function getFruitValue(){
+    function getFruitValue() {
         let getFruit = document.getElementById("qtyFruit").value;
         let fruitSlct = document.getElementById("fruits");
         let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
@@ -493,7 +490,7 @@ function add() {
         console.log('The quantity is ' + getFruit);
         console.log('The total calories is ' + TotalFruitCal);
     }
-    function getVeggiesValue(){
+    function getVeggiesValue() {
         let getVeggies = document.getElementById("qtyVeggies").value;
         let veggiesSlct = document.getElementById("veggies");
         let userVeggiesSlct = veggiesSlct.options[veggiesSlct.selectedIndex].value;
@@ -505,7 +502,7 @@ function add() {
         console.log('The quantity is ' + getVeggies);
         console.log('The total calories is ' + TotalVegCal);
     }
-    function getProteinValue(){
+    function getProteinValue() {
         let getProtein = document.getElementById("qtyProtein").value;
         let proteinSlct = document.getElementById("protein");
         let userProteinSlct = proteinSlct.options[proteinSlct.selectedIndex].value;
@@ -517,7 +514,7 @@ function add() {
         console.log('The quantity is ' + getProtein);
         console.log('The total calories is ' + TotalProteinCal);
     }
-    function getCarbValue(){
+    function getCarbValue() {
         let getCarb = document.getElementById("qtyCarb").value;
         let carbSlct = document.getElementById("carb");
         let userCarbSlct = carbSlct.options[carbSlct.selectedIndex].value;
@@ -529,7 +526,7 @@ function add() {
         console.log('The quantity is ' + getCarb);
         console.log('The total calories is ' + TotalCarbCal);
     }
-    function getDairyValue(){
+    function getDairyValue() {
         let getDairy = document.getElementById("qtyDairy").value;
         let dairySlct = document.getElementById("dairy");
         let userDairySlct = dairySlct.options[dairySlct.selectedIndex].value;
@@ -541,8 +538,8 @@ function add() {
         console.log('The quantity is ' + getDairy);
         console.log('The total calories is ' + TotalDairyCal);
     }
-    
-    
+
+
     function reset() {
         alert("Total Calories are now Reset!");
         document.getElementById("form").reset();
@@ -552,4 +549,3 @@ function add() {
         document.getElementById("carbcal").innerHTML = "";
         document.getElementById("dairycal").innerHTML = "";
     }
->>>>>>> development
