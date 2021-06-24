@@ -175,3 +175,8 @@ let foods = [
         foodType: 'protein',
         calories: 49
     }]
+
+function calculate() {
+    let quantity = document.getElementById('qty').value;
+    let
+}
