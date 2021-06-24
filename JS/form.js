@@ -1,12 +1,14 @@
 
 
+
 function getFruitValue(){
     let getFruit = document.getElementById("qtyFruit").value;
     let fruitSlct = document.getElementById("fruits");
+ 
     let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
-    let fruitProduct = parseInt(getFruit) * parseInt(userFruitSlct);
+    let totalFruitCal = parseInt(getFruit) * parseInt(userFruitSlct);
     let display = document.getElementById("fruitcal");
-    display.innerHTML += fruitProduct;
+    display.innerHTML += totalFruitCal;
     
 }
 
@@ -14,34 +16,36 @@ function getVegValue(){
     let getVeg = document.getElementById("qtyVeg").value;
     let vegSlct = document.getElementById("veggies");
     let userVegSlct = vegSlct.options[vegSlct.selectedIndex].value;
-    let vegProduct = parseInt(getVeg) * parseInt(userVegSlct);
+    let totalVegCal = parseInt(getVeg) * parseInt(userVegSlct);
     let display = document.getElementById("veggiecal");
-    display.innerHTML += vegProduct;
+    display.innerHTML += totalVegCal;
 }
 
 function getProteinValue(){
     let getProtein = document.getElementById("qtyProtein").value;
     let proteinSlct = document.getElementById("protein");
     let userProteinSlct = proteinSlct.options[proteinSlct.selectedIndex].value;
-    let proteinProduct = parseInt(getProtein) * parseInt(userProteinSlct);
+    let totalProteinCal = parseInt(getProtein) * parseInt(userProteinSlct);
     let display = document.getElementById("proteincal");
-    display.innerHTML += proteinProduct;}
+    display.innerHTML += totalProteinCal;}
 
 function getCarbValue(){
     let getCarb = document.getElementById("qtyCarb").value;
     let carbSlct = document.getElementById("carb");
     let userCarbSlct = carbSlct.options[carbSlct.selectedIndex].value;
-    let carbProduct = parseInt(getCarb) * parseInt(userCarbSlct);
+    let totalCarbCal = parseInt(getCarb) * parseInt(userCarbSlct);
     let display = document.getElementById("carbcal");
-    display.innerHTML += carbProduct;}
+    display.innerHTML += totalCarbCal;}
 
+
+    
 function getDairyValue(){
     let getDairy = document.getElementById("qtyDairy").value;
     let dairySlct = document.getElementById("dairy");
     let userDairySlct = dairySlct.options[dairySlct.selectedIndex].value;
-    let dairyProduct = parseInt(getDairy) * parseInt(userDairySlct);
+    let totalDairyCal = parseInt(getDairy) * parseInt(userDairySlct);
     let display = document.getElementById("dairycal");
-    display.innerHTML += dairyProduct;}
+    display.innerHTML += totalDairyCal;}
 
 //to get value from selection
 
@@ -55,4 +59,11 @@ function reset(){
    document.getElementById("proteincal").innerHTML ="";
    document.getElementById("carbcal").innerHTML ="";
    document.getElementById("dairycal").innerHTML ="";
+}
+
+//function to give running displayed total
+function calorieTotal(){
+ let sum = 0;
+ $(".txt").each(getDairyValue);
+ 
 }
