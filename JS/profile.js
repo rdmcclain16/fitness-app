@@ -1,6 +1,7 @@
 'use strict'
 
 function results(){
+<<<<<<< .merge_file_FyEhh2
    let firstName = document.getElementById("firstName").value;
 
    let result ='First Name: ' + firstName;
@@ -26,3 +27,26 @@ function results(){
 // document.write('Weight: ' + weight + "<br/>");
 // document.write('Goal: ' + goal + "<br/>");
 }
+=======
+    let firstName = document.getElementById("firstName").value;
+ 
+    let result ='First Name: ' + firstName;
+    document.getElementById("display").textContent = result;
+// function showInput() 
+// {   
+//     let form = document.forms[0].elements;
+//     let message_entered = "";
+
+//     for(let i = 0, j = form.length;i < j;i++) 
+//     {
+
+//         if(form[i].type == "text") {message_entered += (form[i].value + " - ");}
+
+//     }
+
+//     document.getElementById('display').innerHTML = message_entered;
+
+// }
+
+
+>>>>>>> .merge_file_J54zn5
