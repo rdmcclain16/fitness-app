@@ -83,9 +83,7 @@ let foods = [
         foodType: 'fruit',
         calories: 102
     },
-]
 
-let foods = [
     {
         name: 'one percent',
         foodType: 'dairy/non-dairy',
