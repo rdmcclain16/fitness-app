@@ -445,6 +445,7 @@ let foods =[
         console.log('Each cup is ' + userProteinSlct + ' calories');
         console.log('The quantity is ' + getProtein);
         console.log('The total calories is ' + TotalProteinCal);
+        
     }
     function getCarbValue(){
         let getCarb = document.getElementById("qtyCarb").value;
@@ -480,4 +481,26 @@ let foods =[
         document.getElementById("proteincal").innerHTML = "";
         document.getElementById("carbcal").innerHTML = "";
         document.getElementById("dairycal").innerHTML = "";
+        document.getElementById("totalcal").innerHTML = "";
+    }
+
+    // function totCalories() {
+    //     let total = parseInt(TotalCarbCal.value) + parseInt(TotalDairyCal.value);
+    //     let display = document.getElementById("total").value;
+    //     display.innerHTML += total;
+
+    //     console.log('the total amount of calories consumed today was ' + total)
+    // }
+
+    function calcSum() {
+        let num1 = document.getElementById("fruitcal");
+        let num2 = document.getElementById("veggiescal");
+        let num3 = document.getElementById("proteincal");
+        let num4 = document.getElementById("carbcal");
+        let num5 = document.getElementById("dairycal");
+        let numbers = parseInt(num1.innerText) + parseInt(num2.innerText) + parseInt(num3.innerText) + parseInt(num4.innerText) + parseInt(num5.innerText);
+        let display = document.getElementById("numbers");
+        display.innerHTML += numbers;
+
+        console.log(numbers);
     }
