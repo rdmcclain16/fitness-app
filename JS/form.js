@@ -9,8 +9,10 @@ function getFruitValue(){
     let totalFruitCal = parseInt(getFruit) * parseInt(userFruitSlct);
     let display = document.getElementById("fruitcal");
     display.innerHTML += totalFruitCal;
-    
+    console.log(getFruit)
+  
 }
+
 
 function getVegValue(){
     let getVeg = document.getElementById("qtyVeg").value;
@@ -45,7 +47,8 @@ function getDairyValue(){
     let userDairySlct = dairySlct.options[dairySlct.selectedIndex].value;
     let totalDairyCal = parseInt(getDairy) * parseInt(userDairySlct);
     let display = document.getElementById("dairycal");
-    display.innerHTML += totalDairyCal;}
+    display.innerHTML += totalDairyCal;
+}
 
 //to get value from selection
 
@@ -61,9 +64,28 @@ function reset(){
    document.getElementById("dairycal").innerHTML ="";
 }
 
+
+
 //function to give running displayed total
 function calorieTotal(){
- let sum = 0;
- $(".txt").each(getDairyValue);
+
+  let howMany = parseInt(document.getElementById("qtyDairy").value);
+  let item = document.getElementById("dairy");
+  let itemSelect = item.options[item.selectedIndex].value;
  
+    let itemCalories = parseInt(howMany) * parseInt(itemSelect);
+
+//get running total from the total text box
+    let runTotal = parseFloat(document.getElementById("total").value);
+
+    document.getElementById("total").value = (itemCalories + runTotal).toFixed(2);
+
+    //add item to display
+    document.getElementById("total").innerHTML += "</br>" + itemSelect.innerHTML + "x" + howMany + "" + itemCalories.toFixed(2);
+    console.log(itemSelect);
+    console.log(howMany);
+
+
 }
+
+calorieTotal();

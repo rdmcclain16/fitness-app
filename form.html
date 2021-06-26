@@ -57,10 +57,11 @@
 <br><br>
     <!--  here is the dropdown of fruits -->
     <form id = "form" action="">
+        
         <label for="fruits">Choose a Fruit: </label>
         <select name="fruits" id="fruits">
-          <option value="choose">Please Select an Option</option>
-          <option value="96">Apple</option>
+          <option value="choose">Please Select an Option</option> 
+            <option value="96">Apple</option>
           <option value="107">Mango</option>
           <option value="74">Pineapple</option>
           <option value="84">Kiwi</option>
@@ -80,14 +81,16 @@
         <input type="number" id="qtyFruit">
         <br><br>
         <input type="button" value ="Add" onclick="getFruitValue()">
-        <display id="fruitcal"></display>
+        <div id="fruitcal"></div>
               <!-- </form> -->
       <br>
       <!-- here is the dropdown of veggies -->
       <!-- <form action=""> -->
+
         <label for="veggies">Choose a Vegetable: </label>
         <select name="veggies" id="veggies">
           <option value="choose">Please Select an Option</option>
+
           <option value="80">Broccoli</option>
           <option value="21">Cabbage</option>
           <option value="52">Carrots</option>
@@ -111,14 +114,16 @@
         <input type="number" id="qtyVeg">
         <br><br>
         <input type="button" value ="Add" onclick="getVegValue()" >
-        <display id="veggiecal"></display>
+        <div id="veggiecal"></div>
       <!-- </form> -->
       <br>
       <!--  here is the dropdown of protein -->
       <!-- <form action=""> -->
+
         <label for="protein">Choose a Protein: </label>
         <select name="protein" id="protein">
           <option value="choose">Please Select an Option</option>
+
           <option value="78">Eggs</option>
           <option value="164">Almonds</option>
           <option value="284">Chicken Breast</option>
@@ -140,14 +145,16 @@
         <input type="number" id="qtyProtein">
         <br><br>
         <input type="button" value ="Add" onclick="getProteinValue()" >
-        <display id="proteincal"></display>
+        <div id="proteincal"></div>
       <!-- </form> -->
       <br>
       <!-- here is the dropdown of carbs/breads -->
       <!-- <form action=""> -->
+
         <label for="">Choose a Carb: </label>
         <select name="carb" id="carb">
           <option value="choose">Please Select an Option</option>
+
           <option value="245">Bagel</option>
           <option value="79">Sliced White Bread</option>
           <option value="69">Sliced Wheat Bread</option>
@@ -168,14 +175,16 @@
         <input type="number" id="qtyCarb">
         <br><br>
         <input type="button" value ="Add" onclick="getCarbValue()" >
-        <display id="carbcal"></display>  
+        <div id="carbcal"></div>  
       <!-- </form> -->
       <br>
       <!-- here is the dropdown of dairy items -->
       <!-- <form action=""> -->
+
         <label for="">Choose a Dairy/Non-Dairy Item: </label>
         <select name="dairy" id="dairy">
           <option value="choose">Please Select an Option</option>
+
           <option value="103">1% Milk</option>
           <option value="103">2% Milk</option>
           <option value="63">Almond Milk</option>
@@ -195,14 +204,17 @@
         <input type="number" id="qtyDairy">
         <br><br>
         <input type="button" value ="Add" onclick="getDairyValue()" >
-        <display id="dairycal"></display> 
+        <div id="dairycal"></div> 
       </form>
       <br>
       <!-- total calories box -->
-      <label for="total">Total Calories Consumed</label>
-      <display id="total">
-      <input type="button" onclick="reset()" value="Reset Form">
-      <br><br>
+      <!-- <label for="total">Total Calories Consumed</label> -->
+      <!-- <display value="Total Calories Consumed" id="total" onblur = calorieTotal()><br> -->
+      <input type="button" onclick="reset()" value="Reset Form"> <br><br>
+      <input type="text" name="total" id = "total" size="25"> Total Calories Consumed</input>
+      <br>
+      <!-- <span id="runningTotal"></span> -->
+           
   <footer>
     Copyright, 2021. &copy;
   </footer>
