@@ -1,7 +1,28 @@
+/* BACKGROUND COLOR */
 body{
     background-color: rgb(233, 249, 252);
 }
+/* NAVBAR */
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+/* "CALORIE INTAKE FORM" */
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 
+/* CHOOSE A.../QTY per cup */
+label{
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-    
+/* DROPDOWN LISTS */
+select{
+    font-family: cursive;
+}
+
+/* ADD AND RESET BUTTONS */
+input{
+color: rgb(8, 119, 48);
+}
