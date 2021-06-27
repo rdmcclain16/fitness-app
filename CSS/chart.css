@@ -1,6 +1,6 @@
 /* BACKGROUND COLOR */
 body{
-    background-color: rgb(233, 249, 252);
+    background-color: rgb(244, 228, 201);
 }
 /* NAVBAR */
 a{
@@ -9,6 +9,7 @@ a{
 
 /* "CALORIE INTAKE FORM" */
 h1{
+  text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -25,4 +26,13 @@ select{
 /* ADD AND RESET BUTTONS */
 input{
 color: rgb(8, 119, 48);
+}
+
+/* "TOTAL CALORIES CONSUMED" */
+p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+a.nav-link{
+    color: black;
 }
