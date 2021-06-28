@@ -1,0 +1,56 @@
+body {
+  background-color: #ffbf69;
+  font-family: "Cairo", sans-serif;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  color: #817f75;
+  font-size: 100px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6%;
+  color: #222221;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin-left: 17%;
+  width: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #817f75;
+  color: white;
+  margin-left: 1%;
+}
+
+#password {
+  border-color: rgb(39, 38, 38);
+  border-width: 20%;
+}
+
+#username {
+  border-color: rgb(39, 38, 38);
+  border-width: 20%;
+}
+
+label {
+  margin-left: 2%;
+}
