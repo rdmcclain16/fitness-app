@@ -509,7 +509,7 @@ let foods =[
     var ctx = canvas.getContext('2d');
     
     // var dataPoints = [],
-    var myData = [{id: "TotalFruitCal"}, {id: "TotalVegCal"}, {id: "TotalProteinCal"}, {id: "TotalCarbCal"}, {id: "TotalDairyCal"}];
+    var myData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 3500];
     
     new Chart(ctx, {
       type: 'bar',
