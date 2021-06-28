@@ -481,7 +481,7 @@ function reset() {
     document.getElementById("proteincal").innerHTML = "";
     document.getElementById("carbcal").innerHTML = "";
     document.getElementById("dairycal").innerHTML = "";
-    document.getElementById("totalcal").innerHTML = "";
+    document.getElementById("numbers").innerHTML = "";
 }
 
 // function totCalories() {
@@ -499,6 +499,7 @@ function calcSum() {
     let num4 = document.getElementById("carbcal");
     let num5 = document.getElementById("dairycal");
     let numbers = parseInt(num1.innerText) + parseInt(num2.innerText) + parseInt(num3.innerText) + parseInt(num4.innerText) + parseInt(num5.innerText);
+    
     let display = document.getElementById("numbers");
     display.innerHTML += numbers;
 
