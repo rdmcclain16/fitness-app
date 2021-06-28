@@ -48,7 +48,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </body>
 
-</html>
+
 <!-- Calorie Intake Form Starts Below Here -->
     <header>
         <h1> Calorie Intake Form </h1>
@@ -77,10 +77,10 @@
           <option value="102">Pear</option>
         </select>
         <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qtyFruit">
+        <input type="number" id="qtyFruit" min="0">
         <br><br>
         <input type="button" value ="Add" onclick="getFruitValue()">
-        <display id="fruitcal"></display>
+        <div id="fruitcal"></div>
       
       <br>
       <!-- here is the dropdown of veggies -->
@@ -107,10 +107,10 @@
           <option value="20">Zucchini</option>
         </select>
         <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qtyVeggies">
+        <input type="number" id="qtyVeggies" min="0">
         <br><br>
         <input type="button" value ="Add" onclick="getVeggiesValue()" >
-        <display id="veggiescal"></display>
+        <div id="veggiescal"></div>
       <br>
       <!--  here is the dropdown of protein -->
         <label for="protein">Choose a Protein: </label>
@@ -134,10 +134,10 @@
           <option value="49">Chicken Sausage</option>
         </select>
         <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qtyProtein">
+        <input type="number" id="qtyProtein" min="0">
         <br><br>
         <input type="button" value ="Add" onclick="getProteinValue()">
-        <display id="proteincal"></display>
+        <div id="proteincal"></div>
      
       <br>
       <!-- <!-- here is the dropdown of carbs/breads -- -->
@@ -161,10 +161,12 @@
           <option value="83">Sliced Rye</option>
         </select>
         <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qtyCarb">
+        <input type="number" id="qtyCarb" min="0">
         <br><br>
-        <input type="button" value ="Add" onclick="getCarbsValue()">
-        <display id="carbcal"></display>
+
+        <input type="button" value ="Add" onclick="getCarbValue()">
+        <div id="carbcal"></div>
+
       <br>
      <!-- here is the dropdown of dairy items -->
         <label for="">Choose a Dairy/Non-Dairy Item: </label>
@@ -186,16 +188,18 @@
           <option value="20">Creamer</option>
         </select> 
         <label for="quantity">QTY(per cup): </label>
-        <input type="number" id="qtyDairy">
+        <input type="number" id="qtyDairy" min="0">
         <br><br>
         <input type="button" value ="Add" onclick="getDairyValue()">
-        <display id="dairycal"></display>
+        <div id="dairycal"></div>
       </form>
 
       <br>
       <!-- total calories box -->
-      <label for="total">Total Calories Consumed</label>
-      <input type="text" id="total">
+      <p id="sum">Total Calories Consumed: </p>
+      <input type="button" name="numbers" onclick="calcSum()">
+      <div id="numbers"></div>
+      <br>
       <input type="reset" value="Reset" onclick="reset()">
       <br><br>
   <footer>
