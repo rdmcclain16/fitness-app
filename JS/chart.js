@@ -3,15 +3,28 @@
 var canvas = document.getElementById('myChart');
 var ctx = canvas.getContext('2d');
 
-var myData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var dataPoints = [],
+var myData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 3500];
 
 new Chart(ctx, {
   type: 'bar',
+  title: {
+    text: "Daily Caloric Intake"
+  },
   data: {
-    labels: ['Fruit', 'Vegetable', 'Protein', 'Total'],
+    labels: ['Fruit', 'Vegetable', 'Protein',  'Carb', 'Dairy', 'Total'],
     datasets: [{
       label: 'Caloric Intake',
-      data: myData,
+      // data: myData,
+      data: [ 
+        {y: "TotalDairyCal", label: "Dairy"},
+        {y: "TotalCarbCal", label: "Carb"},
+        {y: "TotalProteinCal", label: "Protein"},
+        {y: "TotalVegCal", label: "Vegetable"},
+        {y: "TotalFruitCal", label: "Fruit"},
+        {y: "numbers", label: "Total"},
+
+      ]
       backgroundColor: [
         '#000000',
         '#ffffff',
@@ -34,7 +47,8 @@ new Chart(ctx, {
   options: {
     scales: {
       yAxes: [{
-        ticinAtZero: true
+        ticks: {
+          beginAtZero: true
         }
       }]
     }
