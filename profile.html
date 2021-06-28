@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="/CSS/profile.css">
+    <link rel="stylesheet" href="/styles.css">
     <title>Nav-Bar</title>
     <title>FITNESS APP</title>
 </head>
@@ -46,13 +47,13 @@
         </nav>
     </div>
  
-    
+    <br><br>
     <form id="newUser">
         <fieldset>
-            <legend>Add New User</legend>
-            <label for="demographics">Demographics</label>
+            <h2>Add New User</h2>
+            <h3 id="demo" for="demographics">Demographics</h3>
             <br>
-        
+        <div id="data">
             <label for="firstName">First Name </label>
             <input name="firstName" id="firstName" type="text" size="15" required />
 
@@ -63,31 +64,31 @@
             <input name="userAge" id="userAge" type="text" size="15" required /><br><br>
 
             <label for="userHeight">Height </label>
-            <input name="userHeight" id="userHeight" type="text" size="15" required /><br><br>
+            <input name="userHeight" id="userHeight" type="text" size="15" required />
 
             <label for="userWeight">Weight </label>
-            <input name="userWeight" id="userWeight" type="text" size="15" required /><br><br>
+            <input name="userWeight" id="userWeight" type="text" size="15" required />
 
             <label for="userGoalWeight">Goal Weight </label>
             <input name="userGoalWeight" id="userGoalWeight" type="text" size="15" required /><br><br>
             <br>
         </div>
-<div class = "contact">
-            <label for="contactInfo">Contact Information</label>
+    <div class = "contact">
+            <h3 for="contactInfo">Contact Information</h3>
             <br>
 
             <label for="userEmail">Email </label>
             <input name="userEmail" id="userEmail" type="text" size="15" required />
-            <br><br>
+           
             <label for="userPhoneNumber">Phone Number </label>
-            <input name="userPhoneNumber" id="userPhoneNumber" type="text" size="15" required /><br><br>
+            <input name="userPhoneNumber" id="userPhoneNumber" type="text" size="15" required />
 
             <label for="userAddress">Address </label>
             <input name="userAddress" id="userAddress" type="text" size="15" required /><br><br>
             <br>
-        
-
-            <label for="addQuestions">Additional Questions</label>
+    </div>
+    <div id="questions">
+            <h3 for="addQuestions">Additional Questions</h3>
             <br>
 
             <label for="userObjective">What are you trying to accomplish? </label>
@@ -98,7 +99,7 @@
                 <option value="recipes">Recipes</option>
                 <option value="workout">Workout Tips</option>
             </select>
-            <br><br>
+            
             <label for="userReferral">How did you hear about us? </label>
             <select id="userReferral" name="userReferral" >
                 <option value="option">Please choose one</option>
@@ -112,32 +113,29 @@
                 <option value="healthcare">Healthcare Professional</option>
             </select>
             <br><br>
-       
-
-        <div class="button">
-
-            <input type="button" onclick="results()" class="button" value="submit" ><br/>
         </div>
-    </div>
         
+        <div class="button">
+            <input id="submit" type="button" onclick="results()" class="button" value="submit" ><br/>
+        </div>
         </fieldset>
     </form>
-    </div>
-</div>
+    
 
+<br><br>
     
 <div class="display">
-<label id="first"></label><br>
-<label id="last"></label><br>
+<label id="first"></label>
+<label id="last"></label>
 <label id="age"></label><br>
-<label id="height"></label><br>
-<label id="weight"></label><br>
-<label id="goal"></label><br>
+<label id="height"></label>
+<label id="weight"></label>
+<label id="goal"></label><br><br>
 
-<label id="email"></label><br>
-<label id="number"></label><br>
+<label id="email"></label>
+<label id="number"></label>
 <label id="address"></label><br>
-<label id="address"></label><br>
+
 
 </div>
 </div>
@@ -192,17 +190,13 @@
                 <option value="healthcare">Healthcare Professional</option>
             </select> -->
 
-            <input type="button" onclick="results()" id="submit" value="submit" ></input>
         </fieldset>
     </form>
-    
-    
-       <label>
-           <p id="display"></p>
-       </label>
-
-
+   
 
     <script src="JS/profile.js"></script>
 </body>
+<br><br>
+<footer id="footer"><i>Copyright, 2021. &copy;</i></footer>
+
 </html>
