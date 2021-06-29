@@ -1,39 +1,78 @@
 /* BACKGROUND COLOR */
-body{
-    background-color: rgb(244, 228, 201);
-}
-/* NAVBAR */
-a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-/* "CALORIE INTAKE FORM" */
-h1{
-  text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-/* CHOOSE A.../QTY per cup */
-label{
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-/* DROPDOWN LISTS */
-select{
+body {
+    background-color: #ffbf69;
+  }
+  /* NAVBAR */
+  a {
+    font-family: "Cairo", sans-serif;
+  }
+  
+  /* "CALORIE INTAKE FORM" */
+  h1 {
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    color: #2ec4b6;
+  }
+  
+  /* CHOOSE A.../QTY per cup */
+  label {
+    font-family: "Cairo", sans-serif;
+  }
+  
+  /* DROPDOWN LISTS */
+  select {
     font-family: cursive;
-}
-
-/* ADD AND RESET BUTTONS */
-input{
-color: rgb(8, 119, 48);
-}
-
-/* "TOTAL CALORIES CONSUMED" */
-p {
+  }
+  
+  /* ADD AND RESET BUTTONS */
+  input {
+    background-color: #817f75;
+    color: white;
+    justify-content: center;
+  }
+  
+  /* "TOTAL CALORIES CONSUMED" */
+  p {
     text-align: center;
     font-size: 1.5rem;
-}
-
-view{
-    color: rgb(8, 119, 48);
-}
+  }
+  
+  form {
+    display: block;
+    justify-items: center;
+  }
+  
+  div.dropdown {
+    display: block;
+    text-align: center;
+  }
+  
+  .button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .reset {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #sum {
+    color: #2ec4b6;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #numbers {
+    display: flex;
+    justify-content: center;
+  }
+  
+  div {
+    font-weight: bold;
+  }
