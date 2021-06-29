@@ -37,3 +37,9 @@ p {
 view{
     color: rgb(8, 119, 48);
 }
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
