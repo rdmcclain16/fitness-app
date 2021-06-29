@@ -68,7 +68,7 @@
   <form id="form" action="">
     <label for="fruits">Choose a Fruit: </label>
     <select name="fruits" id="fruits">
-      <option value="0">Please Select an Option</option>
+      <option value="" selected></option>
       <option value="96">Apple</option>
       <option value="107">Mango</option>
       <option value="74">Pineapple</option>
@@ -89,13 +89,13 @@
     <input type="number" id="qtyFruit" min="0">
     <br><br>
     <input type="button" class="button" value="Add" onclick="getFruitValue()">
+    <input type="reset" class="reset" value="Delete" onchange="reset()">
     <div id="fruitcal"></div>
-
     <br>
     <!-- here is the dropdown of veggies -->
     <label for="veggies">Choose a Vegetable: </label>
     <select name="veggies" id="veggies">
-      <option value="0">Please Select an Option</option>
+      <option value="" selected></option>
       <option value="80">Broccoli</option>
       <option value="21">Cabbage</option>
       <option value="52">Carrots</option>
@@ -119,12 +119,13 @@
     <input type="number" id="qtyVeggies" min="0">
     <br><br>
     <input type="button" class="button" value="Add" onclick="getVeggiesValue()">
+    <input type="reset" class="reset" value="Delete" onchange="reset()">
     <div id="veggiescal"></div>
     <br>
     <!--  here is the dropdown of protein -->
     <label for="protein">Choose a Protein: </label>
     <select name="protein" id="protein">
-      <option value="0">Please Select an Option</option>
+      <option value="" selected></option>
       <option value="78">Eggs</option>
       <option value="164">Almonds</option>
       <option value="284">Chicken Breast</option>
@@ -146,13 +147,14 @@
     <input type="number" id="qtyProtein" min="0">
     <br><br>
     <input type="button" class="button" value="Add" onclick="getProteinValue()">
+    <input type="reset" class="reset" value="Delete" onchange="reset()">
     <div id="proteincal"></div>
 
     <br>
     <!-- <!-- here is the dropdown of carbs/breads -- -->
     <label for="">Choose a Carb: </label>
     <select name="carb" id="carb">
-      <option value="0">Please Select an Option</option>
+      <option value="" selected></option>
       <option value="245">Bagel</option>
       <option value="79">Sliced White Bread</option>
       <option value="69">Sliced Wheat Bread</option>
@@ -174,13 +176,14 @@
     <br><br>
 
     <input type="button" class="button" value="Add" onclick="getCarbValue()">
+    <input type="reset" class="reset" value="Delete" onchange="reset()">
     <div id="carbcal"></div>
 
     <br>
     <!-- here is the dropdown of dairy items -->
     <label for="">Choose a Dairy/Non-Dairy Item: </label>
     <select name="dairy" id="dairy">
-      <option value="">Please Select an Option</option>
+      <option value="" selected></option>
       <option value="103">1% Milk</option>
       <option value="103">2% Milk</option>
       <option value="63">Almond Milk</option>
@@ -200,6 +203,7 @@
     <input type="number" id="qtyDairy" min="0">
     <br><br>
     <input type="button" class="button" value="Add" onclick="getDairyValue()">
+    <input type="reset" class="reset" value="Delete" onchange="reset()">
     <div id="dairycal"></div>
   </form>
 </div>

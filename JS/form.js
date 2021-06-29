@@ -410,18 +410,27 @@ let foods = [
     },
 ]
 
+
 function getFruitValue() {
     let getFruit = document.getElementById("qtyFruit").value;
     let fruitSlct = document.getElementById("fruits");
     let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
     let TotalFruitCal = parseInt(userFruitSlct) * parseInt(getFruit);
-    let display = document.getElementById("fruitcal");
-    display.innerHTML += TotalFruitCal;
+   
+    let sum= TotalFruitCal
+    // for(let i=0; i<fruitSlct.selectedIndex; i++){
+    sum+=TotalFruitCal.value
+    
+    console.log(sum)
 
+    let display = document.getElementById("fruitcal");
+    display.innerHTML = "";
+    display.innerHTML = sum;
     console.log('Each cup is ' + userFruitSlct + ' calories');
     console.log('The quantity is ' + getFruit);
     console.log('The total calories is ' + TotalFruitCal);
 }
+        
 function getVeggiesValue() {
     let getVeggies = document.getElementById("qtyVeggies").value;
     let veggiesSlct = document.getElementById("veggies");
@@ -500,8 +509,11 @@ function calcSum() {
     let num5 = document.getElementById("dairycal");
     let numbers = parseInt(num1.innerText) + parseInt(num2.innerText) + parseInt(num3.innerText) + parseInt(num4.innerText) + parseInt(num5.innerText);
     
+    
+    
     let display = document.getElementById("numbers");
     display.innerHTML += numbers;
 
     console.log(numbers);
 }
+
