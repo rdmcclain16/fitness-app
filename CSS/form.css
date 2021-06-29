@@ -1,6 +1,6 @@
 /* BACKGROUND COLOR */
 body{
-    background-color: rgb(244, 228, 201);
+    background-color: rgb(247, 228, 195);
 }
 /* NAVBAR */
 a{
@@ -36,4 +36,10 @@ p {
 
 view{
     color: rgb(8, 119, 48);
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
 }
