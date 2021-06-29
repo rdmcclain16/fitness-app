@@ -420,7 +420,7 @@ function getFruitValue() {
     let sum=0;
     // for(let i=0; i<fruitSlct.selectedIndex; i++){
    let a = +TotalFruitCal.value;
-   let b = +userFruitSlct.value;
+   let b = +userFruitSlct;
 
    sum = a+b;
     // }
@@ -429,7 +429,7 @@ function getFruitValue() {
     console.log(sum)
 
     let display = document.getElementById("fruitcal");
-    display.innerHTML = TotalFruitCal;
+    display.innerHTML = +TotalFruitCal;
 
     console.log('Each cup is ' + userFruitSlct + ' calories');
     console.log('The quantity is ' + getFruit);

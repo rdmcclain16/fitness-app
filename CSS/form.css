@@ -17,6 +17,7 @@ body {
   /* CHOOSE A.../QTY per cup */
   label {
     font-family: "Cairo", sans-serif;
+    color: black;
   }
   
   /* DROPDOWN LISTS */
@@ -35,15 +36,26 @@ body {
   p {
     text-align: center;
     font-size: 1.5rem;
+    background-color: black;
+  }
+  
+option{
+    color:black;
+}
+
+
+  view {
+    color: rgb(8, 119, 48);
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: grey;
   }
   
   form {
-    display: block;
-    justify-items: center;
-  }
-  
-  div.dropdown {
-    display: block;
     text-align: center;
   }
   
@@ -52,27 +64,14 @@ body {
     display: block;
     margin: 0 auto;
   }
-  
   .reset {
     text-align: center;
     display: block;
     margin: 0 auto;
   }
   
-  #sum {
-    color: #2ec4b6;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-  }
-  
-  #numbers {
-    display: flex;
-    justify-content: center;
-  }
-  
   div {
     font-weight: bold;
+    text-align: center;
+    color: black;
   }
