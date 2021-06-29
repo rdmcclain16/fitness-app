@@ -509,8 +509,8 @@ var canvas = document.getElementById('myChart');
 var ctx = canvas.getContext('2d');
 
 // var dataPoints = [],
-var myData = [{ id: "TotalFruitCal" }, { id: "TotalVegCal" }, { id: "TotalProteinCal" }, { id: "TotalCarbCal" }, { id: "TotalDairyCal" }];
-// var myData = []
+// var myData = [{ id: "TotalFruitCal" }, { id: "TotalVegCal" }, { id: "TotalProteinCal" }, { id: "TotalCarbCal" }, { id: "TotalDairyCal" }];
+var myData = [2, 4, 6, 8, 10];
 
 
 
@@ -562,3 +562,7 @@ new Chart(ctx, {
         }
     }
 });
+
+
+
+
