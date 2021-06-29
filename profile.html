@@ -47,111 +47,83 @@
         </nav>
     </div>
  
-    <div class="header">
-        <img id="logo" src="https://clipartstation.com/wp-content/uploads/2018/09/bite-clipart-1.png" alt="mouth crunching">
-    </div>
-    <div class= "wrapper">
-    <!-- <div class= "header"> -->
-        <div class = "picture">
-            <img src="https://www.classicalclaps.com/wp-content/uploads/2018/09/ProfileInsta.png" alt="profile picture">
-        </div>
+  <div class = "wrapper";>
+      <div class="registration">
+          <div class="title">
+            Sign Up
+          </div>
       </div>
-        <div class= "form">
-    <form name="newUser" >
-        <fieldset>
-            <h1 id="new">Add New User</h1>
-            <h3 id="demo">Demographics</h3>
-            <br>
+  </div>
+
+
+        <form method="GET">
+            <h3 id="demo">Demographics</h3> <br><br>
+            <div class="form-wrap">
+                <div class="input-group">
+                    <div class="data">
+                    <input name="firstName" placeholder="First Name" id="firstName" type="text" size="15" required />
+                    <input name="lastName" placeholder="Last Name" id="lastName" type="text" size="15" required />
+                    <input name="userAge" placeholder="Age" id="userAge" type="text" size="15" required /><br><br>
+                    <input name="userHeight" placeholder="Height" id="userHeight" type="text" size="15" required />
+                    <input name="userWeight" placeholder="Weight" id="userWeight" type="text" size="15" required />
+                    <input name="userGoalWeight" placeholder="Enter Weight Goal" id="userGoalWeight" type="text" size="15" required /><br><br>
+                    </div>
+                    
+                    <div class ="contact">
+                     <h3 id="contact">Contact Information</h3><br>
+                    <input name="userEmail" placeholder="E-Mail" id="userEmail" type="text" size="15" required /><br><br>
+                     <input name="userPhoneNumber" placeholder="Phone Number" id="userPhoneNumber" type="text" size="15" required /><br><br>
+                    <input name="userAddress" placeholder="Address" id="userAddress" type="text" size="15" required /><br><br>
+                    </div>
         
-            <label for="firstName">First Name </label>
-            <input name="firstName" id="firstName" type="text" size="15" required /><br><br>
-
-            <label for="lastName">Last Name </label>
-            <input name="lastName" id="lastName" type="text" size="15" required /><br><br>
-
-            <label for="userAge">Age </label>
-            <input name="userAge" id="userAge" type="text" size="15" required /><br><br>
-
-            <label for="userHeight">Height </label>
-            <input name="userHeight" id="userHeight" type="text" size="15" required /><br><br>
-
-            <label for="userWeight">Weight </label>
-            <input name="userWeight" id="userWeight" type="text" size="15" required /><br><br>
-
-            <label for="userGoalWeight">Goal Weight </label>
-            <input name="userGoalWeight" id="userGoalWeight" type="text" size="15" required /><br><br>
-            <br>
-        </div>
-<div class = "contact">
-            <h3 id="contact">Contact Information</h3>
-            <br>
-
-            <label for="userEmail">Email </label>
-            <input name="userEmail" id="userEmail" type="text" size="15" required />
-            <br><br>
-            <label for="userPhoneNumber">Phone Number </label>
-            <input name="userPhoneNumber" id="userPhoneNumber" type="text" size="15" required /><br><br>
-
-            <label for="userAddress">Address </label>
-            <input name="userAddress" id="userAddress" type="text" size="15" required /><br><br>
-            <br>
-        
-
-            <label for="addQuestions">Additional Questions</label>
-            <br>
-
-            <label for="userObjective">What are you trying to accomplish? </label>
-            <select id="userObjective" name="userObjective">
-                <option value="option">Please choose one</option>
-                <option value="loseWeight">Lose Weight</option>
-                <option value="gainWeight">Gain Weight</option>
-                <option value="recipes">Recipes</option>
-                <option value="workout">Workout Tips</option>
-            </select>
-            <br><br>
-            <label for="userReferral">How did you hear about us? </label>
-            <select id="userReferral" name="userReferral" >
-                <option value="option">Please choose one</option>
-                <option value="facebook">Facebook</option>
-                <option value="instagram">Instagram</option>
-                <option value="twitter">Twitter</option>
-                <option value="tiktok">TikTok</option>
-                <option value="news">News</option>
-                <option value="friend">Friend</option>
-                <option value="gym">Gym</option>
-                <option value="healthcare">Healthcare Professional</option>
-            </select>
-            <br><br>
+                    <div class= "question">
+                    <h3 id="question">Additional Questions</h3> <br>
+                    <label for="userObjective">What are you trying to accomplish? </label>
+                    <select id="userObjective" name="userObjective">
+                    <option value="option">Please choose one</option>
+                    <option value="loseWeight">Lose Weight</option>
+                    <option value="gainWeight">Gain Weight</option>
+                    <option value="recipes">Recipes</option>
+                    <option value="workout">Workout Tips</option>
+                    </select><br><br>
+            
+                    <label for="userReferral">How did you hear about us? </label>
+                    <select id="userReferral" name="userReferral" >
+                    <option value="option">Please choose one</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="tiktok">TikTok</option>
+                    <option value="news">News</option>
+                    <option value="friend">Friend</option>
+                    <option value="gym">Gym</option>
+                    <option value="healthcare">Healthcare Professional</option>
+                    </select> <br><br>
+                    </div>
+           
        
 
-        <div class="button">
+                    <div class="button">
+                    <input type="button" onclick="results()" class="button" value="submit" ><br/>
+                    </div><!--button -->
 
-            <input type="button" onclick="results()" class="button" value="submit" ><br/>
-        </div>
-    </div>
-        
-        </fieldset>
-    </form>
-    </div>
-</div>
-
+                </div>
+            </div>
+        </form>
     
-<div class="display">
-<label id="first"></label><br>
-<label id="last"></label><br>
-<label id="age"></label><br>
-<label id="height"></label><br>
-<label id="weight"></label><br>
-<label id="goal"></label><br>
+                    <div class="display">
+                    <label id="first"></label><br>
+                    <label id="last"></label><br>
+                    <label id="age"></label><br>
+                    <label id="height"></label><br>
+                    <label id="weight"></label><br>
+                    <label id="goal"></label><br>
 
-<label id="email"></label><br>
-<label id="number"></label><br>
-<label id="address"></label><br>
-<label id="address"></label><br>
-
-</div>
-</div>
-</div>
+                    <label id="email"></label><br>
+                    <label id="number"></label><br>
+                    <label id="address"></label><br>
+                    <label id="address"></label><br>
+                    </div><!--display -->
 
 
 
