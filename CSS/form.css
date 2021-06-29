@@ -37,42 +37,12 @@ p {
   font-size: 1.5rem;
 }
 
-form {
-  display: block;
-  justify-items: center;
-}
-
-div.dropdown {
-  display: block;
-  text-align: center;
-}
-
-.button {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-
-.reset {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-
-#sum {
-  color: #2ec4b6;
+view {
+  color: rgb(8, 119, 48);
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-}
-
-#numbers {
-  display: flex;
-  justify-content: center;
-}
-
-div {
-  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
 }

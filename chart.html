@@ -14,15 +14,19 @@
     <link rel="stylesheet" href="CSS/chart.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/b9d4916b77.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/charts.min.css">
+    <link rel="stylesheet" href="/CSS/navstyles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <!-- <script src="JS/chart.js"></script> -->
     <title>Document</title>
 </head>
 
 <body>
     <div class=" container">
         <nav class="navbar navbar-expand-md navbar-light">
-            <a href="#" class="navbar-brand">Fitness App</a>
+            <a href="#" class="navbar-brand"><i class="fas fa-dumbbell"></i>Calorie Crunch</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
                 aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,16 +34,16 @@
             <div class="collapse navbar-collapse" id="toggleMobileMenu">
                 <ul class="navbar-nav ms-auto text-center">
                     <li>
-                        <a class="nav-link" href="profile.html">Profile</a>
+                        <a class="nav-link" href="profile.html"><i class="fas fa-users"></i>Profile</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="form.html">Caloric Intake</a>
+                        <a class="nav-link" href="form.html"><i class="fas fa-utensils"></i>Caloric Intake</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="chart.html">Progress Chart</a>
+                        <a class="nav-link" href="chart.html"><i class="fas fa-chart-line"></i>Progress Chart</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="index.html">Logout</a>
+                        <a class="nav-link" href="index.html"><i class="fas fa-sign-out-alt"></i>Logout</a>
                     </li>
                 </ul>
             </div>
@@ -47,6 +51,7 @@
         </nav>
     </div>
 </body>
-<table class="chart-css column" id="my-chart"></table>
+<canvas id="myChart"></canvas>
+<script src="JS/form.js"></script>
 
 </html>
