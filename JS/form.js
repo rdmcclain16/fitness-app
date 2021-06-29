@@ -416,15 +416,13 @@ function getFruitValue() {
     let fruitSlct = document.getElementById("fruits");
     let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
     let TotalFruitCal = parseInt(userFruitSlct) * parseInt(getFruit);
-   
-    let sum= TotalFruitCal
-    // for(let i=0; i<fruitSlct.selectedIndex; i++){
-    sum+=TotalFruitCal.value
+    let AddNewFruit = parseInt(userFruitSlct) * parseInt(getFruit)
+    let sum = parseInt(AddNewFruit) + parseInt(TotalFruitCal);
     
-    console.log(sum)
 
     let display = document.getElementById("fruitcal");
-    display.innerHTML = "";
+    display.innerHTML = TotalFruitCal;
+    display.innerHTML = AddNewFruit;
     display.innerHTML = sum;
     console.log('Each cup is ' + userFruitSlct + ' calories');
     console.log('The quantity is ' + getFruit);
