@@ -415,19 +415,17 @@ function getFruitValue() {
     let getFruit = document.getElementById("qtyFruit").value;
     let fruitSlct = document.getElementById("fruits");
     let userFruitSlct = fruitSlct.options[fruitSlct.selectedIndex].value;
-    let TotalFruitCal = parseInt(userFruitSlct) * parseInt(getFruit);
-    let AddNewFruit = parseInt(userFruitSlct) * parseInt(getFruit)
-    let sum = parseInt(AddNewFruit) + parseInt(TotalFruitCal);
-    
-
+    let addNewFruit = parseInt(userFruitSlct) * parseInt(getFruit);
     let display = document.getElementById("fruitcal");
-    display.innerHTML = TotalFruitCal;
-    display.innerHTML = AddNewFruit;
-    display.innerHTML = sum;
+    display.innerText += addNewFruit;
+
+
     console.log('Each cup is ' + userFruitSlct + ' calories');
     console.log('The quantity is ' + getFruit);
-    console.log('The total calories is ' + TotalFruitCal);
+    console.log('The total calories is ' + addNewFruit);
 }
+
+
         
 function getVeggiesValue() {
     let getVeggies = document.getElementById("qtyVeggies").value;
@@ -437,6 +435,9 @@ function getVeggiesValue() {
     let display = document.getElementById('veggiescal');
     display.innerHTML += TotalVegCal;
 
+    function vegReset() {
+    document.getElementsById("veggies").reset().innerHTML;
+    }
     console.log('Each cup is ' + userVeggiesSlct + ' calories');
     console.log('The quantity is ' + getVeggies);
     console.log('The total calories is ' + TotalVegCal);
@@ -473,7 +474,9 @@ function getDairyValue() {
     let TotalDairyCal = parseInt(userDairySlct) * parseInt(getDairy);
     let display = document.getElementById("dairycal");
     display.innerHTML += TotalDairyCal;
+    
 
+    
     console.log('Each cup is ' + userDairySlct + ' calories');
     console.log('The quantity is ' + getDairy);
     console.log('The total calories is ' + TotalDairyCal);
@@ -491,13 +494,7 @@ function reset() {
     document.getElementById("numbers").innerHTML = "";
 }
 
-// function totCalories() {
-//     let total = parseInt(TotalCarbCal.value) + parseInt(TotalDairyCal.value);
-//     let display = document.getElementById("total").value;
-//     display.innerHTML += total;
 
-//     console.log('the total amount of calories consumed today was ' + total)
-// }
 
 function calcSum() {
     let num1 = document.getElementById("fruitcal");
@@ -507,11 +504,11 @@ function calcSum() {
     let num5 = document.getElementById("dairycal");
     let numbers = parseInt(num1.innerText) + parseInt(num2.innerText) + parseInt(num3.innerText) + parseInt(num4.innerText) + parseInt(num5.innerText);
     
-    
-    
     let display = document.getElementById("numbers");
     display.innerHTML += numbers;
+   
 
     console.log(numbers);
+    
 }
 
