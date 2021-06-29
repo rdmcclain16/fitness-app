@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
     list-style: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -8,6 +8,7 @@
 
 body{
 background-color: #ff9f1c;
+display: inline-block;
 
 }
 
@@ -28,19 +29,6 @@ background-color: #ff9f1c;
 
 }
 
-.form-wrap{
-    margin-top: 35px;
-}
-
-.form-wrap .input-wrap .data{
-    margin-bottom: 100px;
-}
-
-.form-wrap .input-wrap .contact{
-    margin-top: 100px;
-    display: inline-block;
-}
-
 /* section labels */
 #demo, #contact, #question{
     color: #cdf3f0;
@@ -49,6 +37,7 @@ background-color: #ff9f1c;
     font-size: 35px;
 }
 
+/*data inputs*/
 .data{
     /* width: 1000px; */
     display: inline-block;
@@ -57,12 +46,26 @@ background-color: #ff9f1c;
     font-size: 20px;
     color: black;
     position: relative;
-  
+
 }
 
 .contact{
     display: inline-block;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    position: relative;
+}
+
+#additional{
+    color: #cdf3f0;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    position: relative;
+
 }
 
 
@@ -70,18 +73,25 @@ background-color: #ff9f1c;
 
 .button {
     font-size: 25px;
-    background-color: #817f75;
-    color: white;  
-    width: 1000px;
+    background-color: #2ec4b6;
+    color: white;
+    width: 100%;
     border-radius: 20px;
+
 }
 
-.display {
-    background: #cbf3f0;
-   border-radius: 20px;
-   color: black;
+.display{
+    background-color: grey;
+
+}
+.display > label{
+    color: white;
 }
 
+#additional{
+    color: #cdf3f0;
+    font-size: 20px;
+}
 input{
     color: black;
 }
@@ -89,5 +99,5 @@ input{
 footer {
     background-color: #817f75;
     text-align: center;
-    
+
 }
